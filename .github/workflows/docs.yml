@@ -8,9 +8,6 @@ on:
 permissions:
   contents: write
 
-env:
-  NODE_VERSION: lts
-
 jobs:
   docs:
     runs-on: ubuntu-latest
@@ -27,11 +24,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version: latest
           cache: pnpm
       - name: Build Documentation
         run: pnpm build
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: docs/.vuepress/dist
