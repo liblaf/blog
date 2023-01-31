@@ -17,7 +17,7 @@ const plugins: PluginsOptions = {
 
   comment: {
     provider: "Waline",
-    serverURL: "https://waline.liblaf.cc",
+    serverURL: "https://waline.liblaf.me",
     dark: "auto",
     reaction: true,
   },
