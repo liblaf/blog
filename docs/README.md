@@ -25,7 +25,7 @@ projects:
     desc: My Portfolio
     link: https://me.liblaf.me
     icon: https://assets.liblaf.me/favicon/png/m.png
-  - name: Status (WIP)
+  - name: Status
     desc: Uptime monitor and status page.
     link: https://status.liblaf.me
     icon: https://assets.liblaf.me/favicon/png/s.png
