@@ -69,6 +69,7 @@ const plugins: PluginsOptions = {
       },
     },
     mermaid: true,
+    demo: true,
     presentation: { plugins: ["highlight", "math", "search", "notes", "zoom"] },
   },
 };
