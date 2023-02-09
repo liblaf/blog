@@ -8,6 +8,17 @@ tag:
 
 [[PDF] acm.org](https://dl.acm.org/doi/pdf/10.1145/311535.311556)
 
+## TL;DR
+
+- focus on **identity**
+- **Morphable Model** --- averages of shape $\bar{S}$ and texture $\bar{T}$ + eigenvectors $s_i$ and $t_i$
+- **Formula** --- $S_{mod} = \bar{S} + \sum_{i = 1}^{m - 1} \alpha_i s_i$
+- **Building**
+  - **Input** --- 3D Scans
+  - **Method** --- Optic Flow + PCA ( see [Sec. 5](#_5-building-a-morphable-model) )
+
+- **Matching / Register** --- minimize difference between images / 3D scans
+
 ## Abstract
 
 - new face images / new 3D face models <-- dense one-to-one **correspondence to internal face model**

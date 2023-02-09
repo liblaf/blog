@@ -8,6 +8,12 @@ tag:
 
 [[PDF] scribblethink.org](http://www.scribblethink.org/Work/Pdfs/blendshapes_MAIN.pdf)
 
+## TL;DR
+
+- focus on **expression**
+- interpretable
+- **Blendshapes** --- $\vb{f} = \vb{b}_0 + \vb{B} \vb{w}$
+
 ## Introduction
 
 blendshapes: simple, expressive, interpretable

@@ -9,6 +9,20 @@ tag:
 - <https://dl.acm.org/doi/abs/10.1145/1185657.1185864>
 - [[PDF] harvard.edu](https://dash.harvard.edu/bitstream/handle/1/4238955/Vlasic_Face.pdf?sequence=2&isAllowed=y)
 
+## TL;DR
+
+- **Multilinear Models**
+- **Formula** --- See [Sec. 4](#_4-multilinear-face-model)
+- **Building**
+  - **Input** --- Motion Capture ( vertices $\cp$ ( $\cp$ visemes ) expressions $\cp$ identities )
+  - **Correspondence** --- Meshes --> Scan ( See [Sec. 4.2](#_4-2-correspondence) )
+  - **Missing Data** --- See [Sec. 4.4](#_4-4-missing-data)
+  - **Method** --- SVD
+- **Face Transfer**
+  - **Input** --- Video Data
+  - **Face Tracking** ( See [Sec. 5.1](#_5-1-face-tracking) )
+  - **Initialization**
+
 ## Abstract
 
 > Face Transfer is a method for mapping video recorded performances of one individual to facial animations of another. It extracts visemes (speech-related mouth articulations), expressions, and three-dimensional (3D) pose from monocular video or film footage. These parameters are then used to generate and drive a detailed 3D textured face mesh for a target identity, which can be seamlessly rendered back into target footage. The underlying face model automatically adjusts for how the target performs facial expressions and visemes. The performance data can be easily edited to change the visemes, expressions, pose, or even the identity of the target—the attributes are separably controllable. This supports a wide variety of video rewrite and puppetry applications.
@@ -145,7 +159,7 @@ $$
 \vb{Z} \vb{d} = \vb{Z} \pqty{\vb{p} - \vb{p}_0} = \vb{e}
 $$
 
-- $\vb{b}$ --- describe the image-space motion of the point
+- $\vb{d}$ --- describe the image-space motion of the point
 - $\vb{p}$ --- the point's true location
 - $\vb{p}_0$ --- its current best guess ( location from the previous frame if no guess )
 - matrix $\vb{Z}$, vector $\vb{e}$ --- contain spatial and temporal intensity gradient information in the surrounding region
