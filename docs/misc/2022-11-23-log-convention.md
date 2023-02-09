@@ -1,9 +1,9 @@
 ---
-title: "Log Convention"
+title: Log Convention
 category:
-  - "Misc"
+  - Style
 tag:
-  - "Log"
+  - Logging
 ---
 
 ## Color
