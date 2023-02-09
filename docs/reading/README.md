@@ -1,4 +1,4 @@
 ---
 title: Reading
-icon: article
+icon: read
 ---
