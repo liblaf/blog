@@ -14,6 +14,7 @@ tag:
 - **Morphable Model** --- averages of shape $\bar{S}$ and texture $\bar{T}$ + eigenvectors $s_i$ and $t_i$
 - **Formula** --- $S_{mod} = \bar{S} + \sum_{i = 1}^{m - 1} \alpha_i s_i$
 - **Building**
+
   - **Input** --- 3D Scans
   - **Method** --- Optic Flow + PCA ( see [Sec. 5](#_5-building-a-morphable-model) )
 

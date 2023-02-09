@@ -86,6 +86,7 @@ $$
 > ==?== we want $\Gamma$ to distinguish between the best "bad" embedding and the best "good" embedding
 
 maximize the optimization margin ( subject to $\norm{\Gamma} = 1$ ):
+
 $$
 \min_{i = 1}^n \Gamma^T \vb{q}_i - \min_{i = 1}^m \Gamma^T \vb{p}_i
 $$
@@ -99,6 +100,7 @@ $$
 ### 3.5. Embedding Refinement
 
 minimize continuous penalty function $g =$ sum of penalty functions over the bones + an asymmetry penalty
+
 $$
 g\pqty{q_1, \dots, q_s} = \alpha_A g^A \pqty{q_1, \dots, q_s} + \sum_{i = 2}^s g_i\pqty{q_i, q_{p_S}(i)}
 $$
@@ -111,6 +113,7 @@ $$
 ## 4. Skin Attachment
 
 **Linear Blend Skinning ( LBS )** gives the position of the transformed vertex $j$ as
+
 $$
 \sum_i w_j^i \vb{T}^i(\vb{v}_j)
 $$

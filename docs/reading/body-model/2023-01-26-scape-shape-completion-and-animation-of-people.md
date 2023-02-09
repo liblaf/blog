@@ -67,6 +67,7 @@ $$
   - magnitude of $t$ --- rotation amount
 
 predicts the transformation matrices $Q_k^i$ as a function of the twists of its two nearest joints $\Delta{r_{\ell[k]}^i} = \pqty{\Delta{r_{\ell[k], 1}^i}, \Delta{r_{\ell[k], 2}^i}}$
+
 $$
 q_{k, l m}^i = \vb{a}_{k, l m}^T \vdot \begin{bmatrix}
 \Delta{r_{\ell[k]}^i} \\
@@ -106,6 +107,7 @@ $$
 ### 5.2. Learning the Shape Deformation Model
 
 PCA:
+
 $$
 S^i = \mathscr{S}_{U, \mu}\pqty{\beta^i} = \overline{U \beta^i + \mu}
 $$
