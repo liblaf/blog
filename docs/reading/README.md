@@ -1,4 +1,4 @@
 ---
-title: "Reading Notes"
+title: Reading
 icon: article
 ---
