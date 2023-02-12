@@ -16,19 +16,19 @@ Dashboard > Profiles > Right Click on the profile > Parsers > Edit Parsers
 
 ```yaml
 parsers:
-  - url: ^https://.+$
+  - reg: https?:\/\/.+
     yaml:
-      prepend-proxy-groups:
+      append-proxy-groups:
         - url: http://www.gstatic.com/generate_204
           interval: 300
           name: auto
           type: url-test
       commands:
         - proxy-groups.auto.proxies=[]proxyNames
-        - proxy-groups.1.proxies.0+auto
+        - proxy-groups.0.proxies.0+auto
 ```
 
 ## Reference
 
-[^1]: <https://docs.cfw.lbyczf.com/contents/parser.html> "配置文件预处理"
-[^2]: <https://lancellc.gitbook.io/clash/clash-config-file/proxy-groups/auto> "Load Balance"
+[^1]: <https://docs.cfw.lbyczf.com/contents/parser.html> "配置文件预处理 | Clash for Windows"
+[^2]: <https://lancellc.gitbook.io/clash/clash-config-file/proxy-groups/auto> "Auto - Clash"
