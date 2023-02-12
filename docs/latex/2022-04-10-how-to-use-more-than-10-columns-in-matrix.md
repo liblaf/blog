@@ -1,8 +1,10 @@
 ---
-title: "How To Use More Than 10 Columns in Matrix"
+title: How To Use More Than 10 Columns in Matrix
 category:
-  - "LaTeX"
-  - "Quick Solution"
+  - LaTeX
+  - Quick Solution
+tag:
+  - Matrix
 ---
 
 ```latex

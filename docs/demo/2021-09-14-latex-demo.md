@@ -1,8 +1,8 @@
 ---
-title: "LaTeX Demo"
+title: LaTeX Demo
 category:
-  - "Demo"
-  - "LaTeX"
+  - Demo
+  - LaTeX
 icon: tex
 isOriginal: false
 ---

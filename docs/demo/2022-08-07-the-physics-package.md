@@ -1,8 +1,10 @@
 ---
-title: "The physics Package"
+title: The physics Package
 category:
-  - "Demo"
-  - "LaTeX"
+  - Demo
+  - LaTeX
+tag:
+  - Physics
 icon: tex
 isOriginal: false
 ---

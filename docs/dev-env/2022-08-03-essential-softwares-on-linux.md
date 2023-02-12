@@ -1,10 +1,12 @@
 ---
-title: "Essential Softwares on Linux"
+title: Essential Softwares on Linux
 category:
-  - "Dev Env"
-  - "Linux"
+  - Dev Env
+  - Linux
+  - Archive
 tag:
-  - "Essentials"
+  - Essentials
+index: false
 ---
 
 ## Homebrew
