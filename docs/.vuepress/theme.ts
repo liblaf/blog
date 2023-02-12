@@ -27,7 +27,7 @@ export default hopeTheme({
       Steam: "https://steamcommunity.com/id/liblaf/",
     },
     roundAvatar: true,
-    articleInfo: ["Category", "Date", "Tag", "ReadingTime", "PageView"],
+    articleInfo: ["Category", "Date", "Tag", "ReadingTime"],
   },
 
   // Theme Layout Options
@@ -37,9 +37,10 @@ export default hopeTheme({
   repo: "https://github.com/liblaf/blog",
   // Theme Layout Options > Sidebar Config
   sidebar: sidebar,
+  sidebarSorter: ["readme", "order", "date", "filename"],
   headerDepth: 4,
   // Theme Layout Options > Title
-  pageInfo: ["Date", "Category", "Tag", "ReadingTime", "PageView"],
+  pageInfo: ["Date", "Category", "Tag", "ReadingTime"],
   // Theme Layout Options > Meta
   editLinkPattern: ":repo/blob/:branch/:path",
   docsRepo: "https://github.com/liblaf/blog",
