@@ -30,9 +30,9 @@ export default defineUserConfig({
   // Plugin Config
   plugins: [
     docsearchPlugin({
-      apiKey: "38fc3e3603efeaaf17058055d24d98ee",
-      indexName: "liblaf",
-      appId: "ELGWQ7KYID",
+      apiKey: "ba8dc65c428ac921826d498f0ed3f08f",
+      indexName: "liblafme",
+      appId: "308ESY57KZ",
     }),
     default_frontmatter_plugin,
   ],
