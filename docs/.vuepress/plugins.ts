@@ -26,8 +26,10 @@ const plugins: PluginsOptions = {
     sup: true,
     sub: true,
     footnote: true,
-    imgLazyload: true,
     mark: true,
+    figure: true,
+    imgLazyload: true,
+    imgSize: true,
     tasklist: true,
     mathjax: {
       tex: {
