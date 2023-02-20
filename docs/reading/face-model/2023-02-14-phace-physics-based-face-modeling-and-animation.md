@@ -182,6 +182,7 @@ $$
 ### Dynamics
 
 augmenting the objective of Eq. $\eqref{eq:3}$ with the term:
+
 $$
 \frac{1}{2} \norm{\vb{x} - (\vb{x}_n + h \vb{v}_n)}_{\vb{M}}^2
 $$
