@@ -17,7 +17,7 @@ projects:
     desc: An index & manager of Onedrive based on serverless.
     link: https://cdn.liblaf.me
     icon: https://assets.liblaf.me/favicon/png/c.png
-  - name: Drive (WIP)
+  - name: Drive
     desc: OneDrive public directory listing, powered by Vercel and Next.js
     link: https://drive.liblaf.me
     icon: https://assets.liblaf.me/favicon/png/d.png
