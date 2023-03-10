@@ -34,7 +34,7 @@ export default hopeTheme({
   // Theme Layout Options > Navbar Config
   navbar: navbar,
   logo: "https://assets.liblaf.me/favicon/png/b.png",
-  repo: "https://github.com/liblaf/blog",
+  repo: "https://github.com/liblaf/web-blog",
   // Theme Layout Options > Sidebar Config
   sidebar: sidebar,
   sidebarSorter: ["readme", "order", "date", "filename"],
@@ -43,7 +43,7 @@ export default hopeTheme({
   pageInfo: ["Date", "Category", "Tag", "ReadingTime"],
   // Theme Layout Options > Meta
   editLinkPattern: ":repo/blob/:branch/:path",
-  docsRepo: "https://github.com/liblaf/blog",
+  docsRepo: "https://github.com/liblaf/web-blog",
   docsDir: "docs",
   // Theme Layout Options > Footer
   displayFooter: true,
