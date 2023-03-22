@@ -21,10 +21,14 @@ projects:
     desc: OneDrive public directory listing, powered by Vercel and Next.js
     link: https://drive.liblaf.me
     icon: https://assets.liblaf.me/favicon/png/d.png
+  - name: Metrics
+    desc: GitHub Metrics Insights
+    link: https://metrics.liblaf.me
+    icon: https://assets.liblaf.me/favicon/png/m.png
   - name: Portfolio (WIP)
     desc: My Portfolio
-    link: https://me.liblaf.me
-    icon: https://assets.liblaf.me/favicon/png/m.png
+    link: https://portfolio.liblaf.me
+    icon: https://assets.liblaf.me/favicon/png/p.png
   - name: Status
     desc: Uptime monitor and status page.
     link: https://status.liblaf.me
