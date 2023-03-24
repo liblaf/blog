@@ -8,21 +8,21 @@ export default hopeTheme({
   // Theme Basic Options
   hostname: "https://blog.liblaf.me",
   author: {
-    name: "Qin Li",
+    name: "liblaf",
     url: "https://liblaf.me",
-    email: "liblaf@outlook.com",
+    email: "i@liblaf.me",
   },
 
   // Theme Feature Options
   // Theme Feature Options > Blog Options
   blog: {
-    name: "Qin Li",
+    name: "liblaf",
     avatar: "https://assets.liblaf.me/avatar/jpg/qiqi.jpg",
     description: "Life blooms like a flower",
     intro: "https://blog.liblaf.me/me/",
     medias: {
       BiliBili: "https://space.bilibili.com/225600506",
-      Email: "mailto:liblaf@outlook.com",
+      Email: "mailto:i@liblaf.me",
       GitHub: "https://github.com/liblaf",
       Steam: "https://steamcommunity.com/id/liblaf/",
     },
