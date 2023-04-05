@@ -51,15 +51,12 @@ export default hopeTheme({
   // Theme Appearance Options
   iconAssets: "iconfont",
   themeColor: {
-    default: "#48bfe3",
-    blue: "#2196f3",
-    red: "#f26d6d",
-    green: "#3eaf7c",
-    orange: "#fb9b5f",
+    default: "#13c2c2",
+    purple: "#722ed1",
   },
   fullscreen: true,
 
-  blogLocales: { slides: "Slides" },
+  blogLocales: { slide: "Slides" },
 
   // Plugin Config
   plugins: plugins,

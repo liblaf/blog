@@ -7,7 +7,7 @@ const plugins: PluginsOptions = {
   blog: {
     type: [
       {
-        key: "slides",
+        key: "slide",
         filter: (page: Page): boolean => {
           return page.frontmatter.layout === "Slide";
         },
