@@ -16,7 +16,7 @@ __global__ void stride_copy(float *dst, float *src) {
 }
 ```
 
-![Global Memory](https://res.cloudinary.com/liblaf/image/upload/v1677215353/2023/02/24/20230224-1677215350.png)
+![Global Memory](https://cdn.liblaf.me/image/2023/02/24/20230224-1677215350.png)
 
 ### 性能变化的主要来源是 GPU 的哪种机制引起的？
 
@@ -51,7 +51,7 @@ __global__ void test_shmem() {
 }
 ```
 
-![Shared Memory](https://res.cloudinary.com/liblaf/image/upload/v1677215375/2023/02/24/20230224-1677215373.png)
+![Shared Memory](https://cdn.liblaf.me/image/2023/02/24/20230224-1677215373.png)
 
 ### 固定 `BITWIDTH` 时, 程序的性能变化来源于哪种硬件机制？
 

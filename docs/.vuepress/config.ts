@@ -2,9 +2,10 @@ import { defineUserConfig } from "vuepress";
 
 import { docsearchPlugin } from "@vuepress/plugin-docsearch";
 
-import default_frontmatter_plugin from "./plugins/plugin-default-frontmatter";
+import default_frontmatter_plugin from "./plugin/default-frontmatter";
 import theme from "./theme";
 
+// https://v2.vuepress.vuejs.org/reference/config.html
 export default defineUserConfig({
   // Site Config
   title: "Blog",
@@ -12,6 +13,9 @@ export default defineUserConfig({
 
   // Theme Config
   theme: theme,
+
+  // Common Config
+  permalinkPattern: null,
 
   // Build Config
   shouldPrefetch: false,

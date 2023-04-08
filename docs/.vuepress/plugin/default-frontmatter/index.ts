@@ -2,7 +2,7 @@ import path from "node:path";
 import { App, PageOptions, PluginFunction, PluginObject } from "vuepress";
 
 const default_frontmatter_plugin: PluginFunction = (
-  app: App,
+  app: App
 ): PluginObject => ({
   name: "vuepress-plugin-default-frontmatter",
 
@@ -51,7 +51,7 @@ const default_frontmatter_plugin: PluginFunction = (
         ":year",
         ":month",
         ":day",
-        ":slug",
+        ":slug"
       );
     }
   },

@@ -9,6 +9,7 @@ clean:
 	$(RM) --recursive $(DOCS)/.vuepress/.cache
 	$(RM) --recursive $(DOCS)/.vuepress/.temp
 	$(RM) --recursive $(DOCS)/.vuepress/dist
+	$(RM) $(DOCS)/.vuepress/public/favicon.ico
 
 docs: favicon
 

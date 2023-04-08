@@ -1,5 +1,5 @@
 ---
-title: SCULPTOR: Skeleton-Consistent Face Creation Using a Learned Parametric Generator
+title: "SCULPTOR: Skeleton-Consistent Face Creation Using a Learned Parametric Generator"
 category:
   - Reading
 tag:
@@ -15,15 +15,15 @@ tag:
 | [Li et al. 2017]     | :white_check_mark: |        :x:         | :white_check_mark: |           :x:           | :white_check_mark: | :white_check_mark: | :white_check_mark: |        :x:         |        :x:         |
 | SCULPTOR (Ours)      | :white_check_mark: | :white_check_mark: | :white_check_mark: |   :white_check_mark:    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
-### 4. Building LUCY
+## 4. Building LUCY
 
-#### 4.1. Data Acquisition and Original Usage
+### 4.1. Data Acquisition and Original Usage
 
 - 72 individual subject head CT image pairs (pre and post-surgery)
   - image spatial resolution $\pu{0.48 \times 0.48 \times 1 mm^3}$
 - multi-view face appearance scans
 
-#### 4.2. Data Labeling
+### 4.2. Data Labeling
 
 - raw CT data -- specialists segment with thresholding method and morphological operations --> separated **mandible**, **maxilla** volume and the **facial outer surface**
 - apply ICT[^1] to align **multi-view scans** to the facial soft tissues captured in **CT**
@@ -31,9 +31,9 @@ tag:
 
 [^1]: P.J. Besl and Neil D. McKay. 1992. A method for registration of 3-D shapes. IEEE Transactions on Pattern Analysis and Machine Intelligence 14, 2 (1992), 239–256. https://doi.org/10.1109/34.121791
 
-### 5. SCULPTOR Model
+## 5. SCULPTOR Model
 
-#### 5.1. Model Formulation
+### 5.1. Model Formulation
 
 - $\mathcal{G}$ --- geometry for both skeleton and face
 - $\mathcal{A}$ --- face appearance
@@ -74,15 +74,17 @@ $$
 B_D(\gamma; \mathcal{D}) = \mathcal{D} \gamma
 $$
 
-#### 5.2. Registration
+### 5.2. Registration
 
-##### Registration on skull
+#### Registration on skull
 
 1. skull template $\overline{\vb{T}}_S = \Bqty{\overline{\vb{T}}_{mdb}, \overline{\vb{T}}_{mxl}}$ and CT skull $\vb{C}_S$ are roughly aligned using **Procrustes rigid alignment on landmark correspondences**
 
-2. 
+2.
 
-3. use embedded deformation to recover skull details
+3.
+
+4. use embedded deformation to recover skull details
 
    1. sample control nodes $x \in \mathcal{N}$ on the template surface with interval $\sigma$
 
@@ -103,27 +105,31 @@ $$
       E_d = \lambda_d CD(\overline{\vb{T}}_S', \vb{C}_S) + (1 - \lambda_d) CD_n(\overline{\vb{T}}_s', \vb{C}_S)
       $$
 
+5.
+
 [^2]: Taehyun Rhee, J.P. Lewis, Ulrich Neumann, and Krishna Nayak. 2007. Soft-Tissue Deformation for In Vivo Volume Animation. In 15th Pacific Conference on Computer Graphics and Applications (PG’07). 435–438. https://doi.org/10.1109/PG.2007.46
 
-##### Registration on face
+#### Registration on face
 
 $$
 E_{rface} = E_d(\overline{\vb{T}}_f, \vb{C}_f) + \lambda_l E_{lmk} + \lambda_{lap} E_{lap}
 $$
 
-#### 5.3. Parameter Learning
+### 5.3. Parameter Learning
 
 - train model parameters --- $\Bqty{\overline{\vb{T}}, \mathcal{S}, \mathcal{D}, \mathcal{W}, \mathcal{P}}$
 
-##### Learning on LUCY
+#### Learning on LUCY
 
 - train $\Bqty{\overline{\vb{T}}, \mathcal{S}, \mathcal{D}}$
 - we compute $\mathcal{D}$ by performing PCA on the vertex offset of pre- and post-surgery data by $d_i = \vb{T}_{post}^i - \vb{T}_{pre}^i$ to model the trait component.
 
-##### Learning on FaceScape
+#### Learning on FaceScape
 
 - train $\Bqty{\mathcal{W}, \mathcal{P}}$
 
-##### Optimization Summary
+#### Optimization Summary
 
 - **alternatively** optimize the parameters on two different datasets
+
+## Notes

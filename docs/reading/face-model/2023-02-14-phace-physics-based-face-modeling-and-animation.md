@@ -17,9 +17,9 @@ tag:
 
 ### Overview
 
-![Schematic workflow of our method.](https://res.cloudinary.com/liblaf/image/upload/v1677215668/2023/02/24/20230224-1677215665.png)
+![Schematic workflow of our method.](https://cdn.liblaf.me/image/2023/02/24/20230224-1677215665.png)
 
-![Our template model consists of a volumetric representation of the tissue and bones (a), and a surface blendshape basis to represent the expression space (d). Muscles are embedded into a non-conforming tetrahedral mesh discretization (b). We explicitly model jaw kinematics with a 5 DoF joint (c) and utilize low-resolution geometry proxies for faster collision detection for the teeth region (e). Dynamic skin sliding is supported by introducing both sliding (green) and fixed (red) constraints for bone-tissue connections (f).](https://res.cloudinary.com/liblaf/image/upload/v1677215704/2023/02/24/20230224-1677215700.png)
+![Our template model consists of a volumetric representation of the tissue and bones (a), and a surface blendshape basis to represent the expression space (d). Muscles are embedded into a non-conforming tetrahedral mesh discretization (b). We explicitly model jaw kinematics with a 5 DoF joint (c) and utilize low-resolution geometry proxies for faster collision detection for the teeth region (e). Dynamic skin sliding is supported by introducing both sliding (green) and fixed (red) constraints for bone-tissue connections (f).](https://cdn.liblaf.me/image/2023/02/24/20230224-1677215700.png)
 
 ## 3. Template Face Model
 
