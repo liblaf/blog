@@ -22,6 +22,7 @@ export default defineUserConfig({
 
   // Markdown Config
   markdown: {
+    linkify: true,
     typographer: true,
     headers: {
       level: [2, 3, 4],
