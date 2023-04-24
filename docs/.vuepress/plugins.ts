@@ -22,12 +22,13 @@ const plugins: PluginsOptions = {
 
   // Comment Plugin Config
   // https://theme-hope.vuejs.press/config/plugins/comment.html
-  comment: {
-    provider: "Waline",
-    serverURL: "https://waline.liblaf.me",
-    dark: "auto",
-    reaction: true,
-  },
+  // comment: {
+  //   provider: "Waline",
+  //   serverURL: "https://waline.liblaf.me",
+  //   dark: "auto",
+  //   reaction: true,
+  // },
+  comment: false,
 
   // MdEnhance Plugin Config
   // https://theme-hope.vuejs.press/config/plugins/md-enhance.html
