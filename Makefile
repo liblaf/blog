@@ -2,6 +2,8 @@ DOCS         := $(CURDIR)/docs
 NODE_OPTIONS := --max_old_space_size=8192
 PNPM         := env NODE_OPTIONS="$(NODE_OPTIONS)" pnpm
 
+all: build
+
 build: docs
 	$(PNPM) build
 

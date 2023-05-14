@@ -5,6 +5,10 @@ layout: BlogHome
 tagline: Life blooms like a flower
 title: Home
 projects:
+  - name: AList
+    desc: A file list program that supports multiple storage, powered by Gin and Solidjs.
+    link: https://alist.liblaf.me
+    icon: https://assets.liblaf.me/favicon/png/a.png
   - name: Assets
     desc: My Static Assets
     link: https://assets.liblaf.me
@@ -17,9 +21,9 @@ projects:
     desc: An index & manager of Onedrive based on serverless.
     link: https://cdn.liblaf.me
     icon: https://assets.liblaf.me/favicon/png/c.png
-  - name: Drive
-    desc: OneDrive public directory listing, powered by Vercel and Next.js
-    link: https://drive.liblaf.me
+  - name: Dash
+    desc: A simple, modern server dashboard, primarily used by smaller private servers
+    link: https://dash.liblaf.me
     icon: https://assets.liblaf.me/favicon/png/d.png
   - name: Metrics
     desc: GitHub Metrics Insights
@@ -29,14 +33,14 @@ projects:
     desc: My Portfolio
     link: https://portfolio.liblaf.me
     icon: https://assets.liblaf.me/favicon/png/p.png
+  - name: Resume
+    desc: My Resume
+    link: https://resume.liblaf.me
+    icon: https://assets.liblaf.me/favicon/png/r.png
   - name: Status
-    desc: Uptime monitor and status page.
+    desc: Uptime monitor and status page
     link: https://status.liblaf.me
     icon: https://assets.liblaf.me/favicon/png/s.png
-  - name: Waline
-    desc: A Simple, Safe Comment System
-    link: https://waline.liblaf.me
-    icon: https://assets.liblaf.me/favicon/png/w.png
   - name: 未央书院答疑坊
     desc: 加入我们, 为同学们答疑解惑!
     link: https://wydyf.liblaf.me

@@ -6,4 +6,5 @@ export default navbar([
   { text: "Category", link: "/category/", icon: "categoryselected" },
   { text: "Tag", link: "/tag/", icon: "tag" },
   { text: "Timeline", link: "/timeline/", icon: "time" },
+  { text: "Me", link: "/me/", icon: "profile" },
 ]);
