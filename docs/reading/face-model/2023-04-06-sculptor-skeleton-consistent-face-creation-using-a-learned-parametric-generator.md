@@ -1,7 +1,7 @@
 ---
 title: "SCULPTOR: Skeleton-Consistent Face Creation Using a Learned Parametric Generator"
 category:
-  - Reading
+  - Reading Notes
 tag:
   - Face Model
 ---
