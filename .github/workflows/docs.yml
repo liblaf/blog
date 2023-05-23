@@ -28,7 +28,7 @@ jobs:
           node-version: latest
           cache: pnpm
       - name: Build
-        run: make build
+        run: make dist
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
