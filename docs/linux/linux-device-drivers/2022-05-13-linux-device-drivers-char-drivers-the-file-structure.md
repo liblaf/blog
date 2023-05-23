@@ -21,7 +21,7 @@ struct file { ... };
 mode_t f_mode;
 ```
 
-The file mode identifies the file as either readable or writable (or both), by means of the bits `FMODE_READ` and `FMODE_WRITE`. You might want to check this field for read/write permission in your `open` or `ioctl` function, but you don’t need to check permissions for `read` and `write`, because the kernel checks before invoking your method. An attempt to read or write when the file has not been opened for that type of access is rejected without the driver even knowing about it.
+The file mode identifies the file as either readable or writable (or both), by means of the bits `FMODE_READ` and `FMODE_WRITE`. You might want to check this field for read/write permission in your `open` or `ioctl` function, but you don't need to check permissions for `read` and `write`, because the kernel checks before invoking your method. An attempt to read or write when the file has not been opened for that type of access is rejected without the driver even knowing about it.
 
 ## f_pos
 

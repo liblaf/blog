@@ -145,7 +145,7 @@ b6:
 }
 ```
 
-## xxxxxxxxxx5 1int string_length(char* rdi) {2  char* rdx = rdi;3  while (\*rdx) ++rdi;4  return rdx - rdi;  // rax5}c
+## xxxxxxxxxx5 1int string_length(char* rdi) {2 char* rdx = rdi;3 while (\*rdx) ++rdi;4 return rdx - rdi; // rax5}c
 
 ```c
 int strings_not_equal(char* rdi, char* rsi) {

@@ -56,9 +56,6 @@ export default hopeTheme({
   // Theme Appearance Options
   // https://theme-hope.vuejs.press/config/theme/appearance.html
   iconAssets: "iconfont",
-  themeColor: {
-    purple: "#722ed1",
-  },
   fullscreen: true,
 
   blogLocales: { slide: "Slides" },

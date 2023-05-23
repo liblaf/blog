@@ -107,7 +107,7 @@ $$
 
 5.
 
-[^2]: Taehyun Rhee, J.P. Lewis, Ulrich Neumann, and Krishna Nayak. 2007. Soft-Tissue Deformation for In Vivo Volume Animation. In 15th Pacific Conference on Computer Graphics and Applications (PG’07). 435–438. https://doi.org/10.1109/PG.2007.46
+[^2]: Taehyun Rhee, J.P. Lewis, Ulrich Neumann, and Krishna Nayak. 2007. Soft-Tissue Deformation for In Vivo Volume Animation. In 15th Pacific Conference on Computer Graphics and Applications (PG'07). 435–438. https://doi.org/10.1109/PG.2007.46
 
 #### Registration on face
 
