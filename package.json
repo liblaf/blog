@@ -12,9 +12,9 @@
   "dependencies": {
     "@vuepress/client": "2.0.0-beta.62",
     "@vuepress/plugin-docsearch": "2.0.0-beta.62",
-    "vue": "^3.3.1",
+    "vue": "^3.3.4",
     "vuepress": "2.0.0-beta.62",
-    "vuepress-theme-hope": "2.0.0-beta.211"
+    "vuepress-theme-hope": "2.0.0-beta.215"
   },
   "pnpm": {
     "peerDependencyRules": {

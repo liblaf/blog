@@ -14,8 +14,15 @@ clean:
 dist: $(FAVICON)
 	$(PNPM) build
 
+pretty: $(CURDIR)/.gitignore
+	prettier --write --ignore-path $< $(CURDIR)
+
 start: $(FAVICON)
 	$(PNPM) start
+
+update:
+	git submodule update --init --recursive
+	git submodule foreach git pull
 
 $(FAVICON):
 	wget --output-document=$@ https://assets.liblaf.me/favicon/ico/b.ico
