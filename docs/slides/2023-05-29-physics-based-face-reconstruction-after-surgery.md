@@ -81,7 +81,7 @@ layout: Slide
 
 ## Discussions
 
-- computation solution does not match theoretical solution due to floating precision
+- computation solution does not match theoretical solution due to floating precision and iterations
 - "dynamics" is not necessary for this task, minimization may be enough
 
 @slideend
