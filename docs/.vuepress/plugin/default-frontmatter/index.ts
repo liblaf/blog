@@ -19,6 +19,10 @@ const default_frontmatter_plugin: PluginFunction = (
     options.frontmatter.lastUpdated = true;
     options.frontmatter.contributors = true;
     options.frontmatter.editLink = true;
+    options.frontmatter.reveal = {
+      width: 1280,
+      height: 720,
+    };
 
     if (dirname === ".") {
       options.frontmatter.article = false;
