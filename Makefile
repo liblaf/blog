@@ -11,18 +11,18 @@ clean:
 	$(RM) --recursive $(DOCS)/.vuepress/dist
 	$(RM) $(FAVICON)
 
+dev: $(FAVICON)
+	$(PNPM) dev
+
 dist: $(FAVICON)
 	$(PNPM) build
 
 pretty: $(CURDIR)/.gitignore
 	prettier --write --ignore-path $< $(CURDIR)
 
-start: $(FAVICON)
-	$(PNPM) start
-
-update:
-	git submodule update --init --recursive
-	git submodule foreach git pull
+#################################################
+#               Auxiliary Targets               #
+#################################################
 
 $(FAVICON):
 	wget --output-document=$@ https://assets.liblaf.me/favicon/ico/b.ico
