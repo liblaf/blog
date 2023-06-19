@@ -1,27 +1,35 @@
 h1 {
-  color: #5b8ff9;
+  color: var(--h1-color);
 }
 
 h2 {
-  color: #61ddaa;
+  color: var(--h2-color);
 }
 
 h3 {
-  color: #65789b;
+  color: var(--h3-color);
 }
 
 h4 {
-  color: #f6bd16;
+  color: var(--h4-color);
 }
 
 h5 {
-  color: #7262fd;
+  color: var(--h5-color);
 }
 
 h6 {
-  color: #78d3f8;
+  color: var(--h6-color);
+}
+
+em {
+  color: var(--em-color);
+}
+
+s {
+  color: var(--s-color);
 }
 
 strong {
-  color: #13c2c2;
+  color: var(--strong-color);
 }

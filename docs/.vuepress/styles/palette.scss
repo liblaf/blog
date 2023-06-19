@@ -1,1 +1,86 @@
-$theme-color: #00bcd4;
+// https://ant.design/docs/spec/colors
+// https://coolors.co/contrast-checker
+
+$red-5: #ff4d4f;
+$red-7: #cf1322;
+
+$volcano-5: #ff7a45;
+$volcano-7: #d4380d;
+
+$orange-5: #ffa940;
+$orange-7: #d46b08;
+
+$gold-5: #ffc53d;
+$gold-7: #d48806;
+
+$yellow-5: #ffec3d;
+$yellow-7: #d4b106;
+
+$lime-5: #bae637;
+$lime-7: #7cb305;
+
+$green-5: #73d13d;
+$green-7: #389e0d;
+
+$cyan-5: #36cfc9;
+$cyan-6: #13c2c2;
+$cyan-7: #08979c;
+
+$blue-5: #4096ff;
+$blue-7: #0958d9;
+
+$geekblue-5: #597ef7;
+$geekblue-7: #1d39c4;
+
+$purple-5: #9254de;
+$purple-7: #531dab;
+
+$magenta-5: #f759ab;
+$magenta-7: #c41d7f;
+
+$theme-color: $cyan-6;
+
+$h1-color: (
+  dark: $cyan-5,
+  light: $cyan-7,
+);
+
+$h2-color: (
+  dark: $volcano-5,
+  light: $volcano-7,
+);
+
+$h3-color: (
+  dark: $gold-5,
+  light: $gold-7,
+);
+
+$h4-color: (
+  dark: $lime-5,
+  light: $lime-7,
+);
+
+$h5-color: (
+  dark: $geekblue-5,
+  light: $geekblue-7,
+);
+
+$h6-color: (
+  dark: $magenta-5,
+  light: $magenta-7,
+);
+
+$em-color: (
+  dark: $orange-5,
+  light: $orange-7,
+);
+
+$s-color: (
+  dark: $green-5,
+  light: $green-7,
+);
+
+$strong-color: (
+  dark: $purple-5,
+  light: $purple-7,
+);
