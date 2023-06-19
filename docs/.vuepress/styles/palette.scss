@@ -1,86 +1,116 @@
 // https://ant.design/docs/spec/colors
 // https://coolors.co/contrast-checker
 
-$red-5: #ff4d4f;
-$red-7: #cf1322;
+$red-4: #ff7875; // dark: 8.20
+$red-6: #f5222d; // dark: 5.15
+$red-7: #cf1322; // light: 5.57
+$red-8: #a8071a; // light: 7.75
 
-$volcano-5: #ff7a45;
-$volcano-7: #d4380d;
+$volcano-5: #ff7a45; // dark: 8.12
+$volcano-6: #fa541c; // dark: 6.35
+$volcano-7: #d4380d; // light: 4.80
+$volcano-8: #ad2102; // light: 7.01
 
-$orange-5: #ffa940;
-$orange-7: #d46b08;
+$orange-5: #ffa940; // dark: 11
+$orange-6: #fa8c16; // dark: 8.83
+$orange-7: #d46b08; // dark: 5.91
+$orange-8: #ad4e00; // light: 5.43
+$orange-9: #873800; // light: 8.09
 
-$gold-5: #ffc53d;
-$gold-7: #d48806;
+$gold-5: #ffc53d; // dark: 13.31
+$gold-7: #d48806; // dark: 7.32
+$gold-8: #ad6800; // dark: 4.76
+$gold-9: #874d00; // light: 6.79
+$gold-10: #613400; // light: 10.50
 
-$yellow-5: #ffec3d;
-$yellow-7: #d4b106;
+$yellow-6: #fadb14; // dark: 15.21
+$yellow-7: #d4b106; // dark: 10.09
+$yellow-8: #ad8b00; // dark: 6.47
+$yellow-9: #876800; // light: 5.24
+$yellow-10: #614700; // light: 8.72
 
-$lime-5: #bae637;
-$lime-7: #7cb305;
+$lime-5: #bae637; // dark: 14.46
+$lime-7: #7cb305; // dark: 8.31
+$lime-8: #5b8c00; // dark: 5.20
+$lime-9: #3f6600; // light: 6.75
+$lime-10: #254000; // light: 11.59
 
-$green-5: #73d13d;
-$green-7: #389e0d;
+$green-5: #73d13d; // dark: 10.92
+$green-6: #52c41a; // dark: 9.27
+$green-7: #389e0d; // dark: 6.06
+$green-8: #237804; // light: 5.59
+$green-9: #135200; // light: 9.40
 
-$cyan-5: #36cfc9;
-$cyan-6: #13c2c2;
-$cyan-7: #08979c;
+$cyan-5: #36cfc9; // dark: 10.93
+$cyan-6: #13c2c2; // dark: 9.52
+$cyan-7: #08979c; // dark: 5.92
+$cyan-8: #006d75; // light: 6.10
+$cyan-9: #00474f; // light: 10.43
 
-$blue-5: #4096ff;
-$blue-7: #0958d9;
+$blue-5: #4096ff; // dark: 7.02
+$blue-6: #1677ff; // dark: 5.12
+$blue-7: #0958d9; // light: 6.16
+$blue-8: #003eb3; // light: 8.97
 
-$geekblue-5: #597ef7;
-$geekblue-7: #1d39c4;
+$geekblue-4: #85a5ff; // dark: 8.82
+$geekblue-5: #597ef7; // dark: 5.75
+$geekblue-6: #2f54eb; // light: 5.85
+$geekblue-7: #1d39c4; // light: 8.63
 
-$purple-5: #9254de;
-$purple-7: #531dab;
+$purple-4: #b37feb; // dark: 7.15
+$purple-5: #9254de; // dark: 4.55
+$purple-6: #722ed1; // light: 6.94
+$purple-7: #531dab; // light: 9.85
 
-$magenta-5: #f759ab;
-$magenta-7: #c41d7f;
+$magenta-4: #ff85c0; // dark: 9.37
+$magenta-5: #f759ab; // dark: 6.97
+$magenta-6: #eb2f96; // dark: 5.38
+$magenta-7: #c41d7f; // light: 5.48
+$magenta-8: #9e1068; // light: 7.70
 
 $theme-color: $cyan-6;
 
 $h1-color: (
   dark: $cyan-5,
-  light: $cyan-7,
+  light: $cyan-8,
 );
 
 $h2-color: (
-  dark: $volcano-5,
-  light: $volcano-7,
+  dark: $magenta-4,
+  light: $magenta-7,
 );
 
 $h3-color: (
-  dark: $gold-5,
-  light: $gold-7,
+  dark: $geekblue-4,
+  light: $geekblue-6,
 );
 
 $h4-color: (
   dark: $lime-5,
-  light: $lime-7,
+  light: $lime-9,
 );
 
 $h5-color: (
-  dark: $geekblue-5,
-  light: $geekblue-7,
+  dark: $gold-5,
+  light: $gold-9,
 );
 
 $h6-color: (
-  dark: $magenta-5,
-  light: $magenta-7,
+  dark: $volcano-5,
+  light: $volcano-7,
 );
 
 $em-color: (
-  dark: $orange-5,
-  light: $orange-7,
+  dark: $green-5,
+  light: $green-8,
 );
 
 $s-color: (
-  dark: $green-5,
-  light: $green-7,
+  dark: $blue-5,
+  light: $blue-7,
 );
 
 $strong-color: (
-  dark: $purple-5,
-  light: $purple-7,
+  dark: $purple-4,
+  light: $purple-6,
 );
