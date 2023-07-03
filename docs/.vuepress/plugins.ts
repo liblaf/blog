@@ -82,9 +82,7 @@ const plugins: PluginsOptions = {
       },
     },
     mermaid: true,
-    presentation: {
-      plugins: ["highlight", "math", "search", "notes", "zoom"],
-    },
+    presentation: ["highlight", "math", "search", "notes", "zoom"],
   },
 };
 

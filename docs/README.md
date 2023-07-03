@@ -5,10 +5,6 @@ layout: BlogHome
 tagline: Life blooms like a flower
 title: Home
 projects:
-  - name: AList
-    desc: A file list program that supports multiple storage, powered by Gin and Solidjs.
-    link: https://alist.liblaf.me
-    icon: https://assets.liblaf.me/favicon/png/a.png
   - name: Assets
     desc: My Static Assets
     link: https://assets.liblaf.me
@@ -21,10 +17,6 @@ projects:
     desc: An index & manager of Onedrive based on serverless.
     link: https://cdn.liblaf.me
     icon: https://assets.liblaf.me/favicon/png/c.png
-  - name: Dash
-    desc: A simple, modern server dashboard, primarily used by smaller private servers
-    link: https://dash.liblaf.me
-    icon: https://assets.liblaf.me/favicon/png/d.png
   - name: Metrics
     desc: GitHub Metrics Insights
     link: https://metrics.liblaf.me
