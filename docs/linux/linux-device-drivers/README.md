@@ -1,3 +1,0 @@
----
-title: "Linux Device Drivers"
----

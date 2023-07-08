@@ -18,11 +18,14 @@ dist: $(FAVICON)
 	$(PNPM) build
 
 pretty: $(CURDIR)/.gitignore
-	prettier --write --ignore-path $< $(CURDIR)
+	prettier --write --ignore-path=$< $(CURDIR)
 
-#################################################
-#               Auxiliary Targets               #
-#################################################
+setup:
+	pnpm install
+
+#####################
+# Auxiliary Targets #
+#####################
 
 $(FAVICON):
 	wget --output-document=$@ https://assets.liblaf.me/favicon/ico/b.ico

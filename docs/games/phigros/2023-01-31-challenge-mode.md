@@ -2,7 +2,6 @@
 title: Challenge Mode
 category:
   - Games
-  - Jottings
 tag:
   - Phigros
 ---
