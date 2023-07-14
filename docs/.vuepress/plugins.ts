@@ -1,5 +1,5 @@
-import { PluginsOptions } from "vuepress-theme-hope";
 import { Page } from "vuepress";
+import { PluginsOptions } from "vuepress-theme-hope";
 
 // Plugin Config
 // https://theme-hope.vuejs.press/config/plugins/intro.html
@@ -9,11 +9,11 @@ const plugins: PluginsOptions = {
   blog: {
     type: [
       {
-        key: "slide",
+        key: "slides",
         filter: (page: Page): boolean => {
           return page.frontmatter.layout === "Slide";
         },
-        frontmatter: (localePath: string) => {
+        frontmatter: (localePath: string): Record<string, string> => {
           return { title: "Slides" };
         },
       },

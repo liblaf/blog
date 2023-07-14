@@ -54,9 +54,11 @@ winget install --id="appmakes.Typora" --exact --accept-package-agreements --acce
 winget install --id="Baidu.BaiduNetdisk" --exact --accept-package-agreements --accept-source-agreements
 winget install --id="Bandisoft.Bandizip" --exact --accept-package-agreements --accept-source-agreements
 winget install --id="CPUID.CPU-Z" --exact --accept-package-agreements --accept-source-agreements
+winget install --id="DigitalScholar.Zotero" --exact --accept-package-agreements --accept-source-agreements
 winget install --id="Fndroid.ClashForWindows" --exact --accept-package-agreements --accept-source-agreements
 winget install --id="JohnMacFarlane.Pandoc" --exact --accept-package-agreements --accept-source-agreements
 winget install --id="Microsoft.VisualStudioCode" --exact --accept-package-agreements --accept-source-agreements
+winget install --id="PrimateLabs.Geekbench.6" --exact --accept-package-agreements --accept-source-agreements
 winget install --id="Tencent.TencentMeeting" --exact --accept-package-agreements --accept-source-agreements
 winget install --id="Tencent.WeChat" --exact --accept-package-agreements --accept-source-agreements
 ```

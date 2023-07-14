@@ -1,5 +1,4 @@
 import { hopeTheme } from "vuepress-theme-hope";
-
 import navbar from "./navbar";
 import plugins from "./plugins";
 import sidebar from "./sidebar";
@@ -58,7 +57,7 @@ export default hopeTheme({
   iconAssets: "iconfont",
   fullscreen: true,
 
-  blogLocales: { slide: "Slides" },
+  blogLocales: { slides: "Slides" },
 
   // Plugin Config
   // https://theme-hope.vuejs.press/config/plugins/intro.html

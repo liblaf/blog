@@ -1,7 +1,5 @@
-import { defineUserConfig } from "vuepress";
-
 import { docsearchPlugin } from "@vuepress/plugin-docsearch";
-
+import { defineUserConfig } from "vuepress";
 import default_frontmatter_plugin from "./plugin/default-frontmatter";
 import theme from "./theme";
 
