@@ -1,116 +1,178 @@
-// https://ant.design/docs/spec/colors
-// https://coolors.co/contrast-checker
+$red-1: #fff1f0; // contrast (white): 1.10, contrast (black): 19.09
+$red-2: #ffccc7; // contrast (white): 1.43, contrast (black): 14.71
+$red-3: #ffa39e; // contrast (white): 1.91, contrast (black): 10.98
+$red-4: #ff7875; // contrast (white): 2.56, contrast (black): 8.20
+$red-5: #ff4d4f; // contrast (white): 3.27, contrast (black): 6.43
+$red-6: #f5222d; // contrast (white): 4.08, contrast (black): 5.15
+$red-7: #cf1322; // contrast (white): 5.57, contrast (black): 3.77
+$red-8: #a8071a; // contrast (white): 7.75, contrast (black): 2.71
+$red-9: #820014; // contrast (white): 10.72, contrast (black): 1.96
+$red-10: #5c0011; // contrast (white): 14.35, contrast (black): 1.46
 
-$red-4: #ff7875; // dark: 8.20
-$red-6: #f5222d; // dark: 5.15
-$red-7: #cf1322; // light: 5.57
-$red-8: #a8071a; // light: 7.75
+$volcano-1: #fff2e8; // contrast (white): 1.10, contrast (black): 19.12
+$volcano-2: #ffd8bf; // contrast (white): 1.33, contrast (black): 15.83
+$volcano-3: #ffbb96; // contrast (white): 1.64, contrast (black): 12.80
+$volcano-4: #ff9c6e; // contrast (white): 2.05, contrast (black): 10.23
+$volcano-5: #ff7a45; // contrast (white): 2.59, contrast (black): 8.12
+$volcano-6: #fa541c; // contrast (white): 3.31, contrast (black): 6.35
+$volcano-7: #d4380d; // contrast (white): 4.80, contrast (black): 4.37
+$volcano-8: #ad2102; // contrast (white): 7.01, contrast (black): 3.00
+$volcano-9: #871400; // contrast (white): 9.86, contrast (black): 2.13
+$volcano-10: #610b00; // contrast (white): 13.49, contrast (black): 1.56
 
-$volcano-5: #ff7a45; // dark: 8.12
-$volcano-6: #fa541c; // dark: 6.35
-$volcano-7: #d4380d; // light: 4.80
-$volcano-8: #ad2102; // light: 7.01
+$orange-1: #fff7e6; // contrast (white): 1.07, contrast (black): 19.70
+$orange-2: #ffe7ba; // contrast (white): 1.21, contrast (black): 17.39
+$orange-3: #ffd591; // contrast (white): 1.38, contrast (black): 15.18
+$orange-4: #ffc069; // contrast (white): 1.62, contrast (black): 13.00
+$orange-5: #ffa940; // contrast (white): 1.91, contrast (black): 11.00
+$orange-6: #fa8c16; // contrast (white): 2.38, contrast (black): 8.83
+$orange-7: #d46b08; // contrast (white): 3.56, contrast (black): 5.91
+$orange-8: #ad4e00; // contrast (white): 5.43, contrast (black): 3.87
+$orange-9: #873800; // contrast (white): 8.09, contrast (black): 2.60
+$orange-10: #612500; // contrast (white): 11.84, contrast (black): 1.77
 
-$orange-5: #ffa940; // dark: 11
-$orange-6: #fa8c16; // dark: 8.83
-$orange-7: #d46b08; // dark: 5.91
-$orange-8: #ad4e00; // light: 5.43
-$orange-9: #873800; // light: 8.09
+$gold-1: #fffbe6; // contrast (white): 1.04, contrast (black): 20.19
+$gold-2: #fff1b8; // contrast (white): 1.13, contrast (black): 18.53
+$gold-3: #ffe58f; // contrast (white): 1.25, contrast (black): 16.86
+$gold-4: #ffd666; // contrast (white): 1.39, contrast (black): 15.06
+$gold-5: #ffc53d; // contrast (white): 1.58, contrast (black): 13.31
+$gold-6: #faad14; // contrast (white): 1.90, contrast (black): 11.05
+$gold-7: #d48806; // contrast (white): 2.87, contrast (black): 7.32
+$gold-8: #ad6800; // contrast (white): 4.41, contrast (black): 4.76
+$gold-9: #874d00; // contrast (white): 6.79, contrast (black): 3.09
+$gold-10: #613400; // contrast (white): 10.50, contrast (black): 2.00
 
-$gold-5: #ffc53d; // dark: 13.31
-$gold-7: #d48806; // dark: 7.32
-$gold-8: #ad6800; // dark: 4.76
-$gold-9: #874d00; // light: 6.79
-$gold-10: #613400; // light: 10.50
+$yellow-1: #feffe6; // contrast (white): 1.02, contrast (black): 20.66
+$yellow-2: #ffffb8; // contrast (white): 1.04, contrast (black): 20.25
+$yellow-3: #fffb8f; // contrast (white): 1.08, contrast (black): 19.45
+$yellow-4: #fff566; // contrast (white): 1.13, contrast (black): 18.50
+$yellow-5: #ffec3d; // contrast (white): 1.21, contrast (black): 17.32
+$yellow-6: #fadb14; // contrast (white): 1.38, contrast (black): 15.21
+$yellow-7: #d4b106; // contrast (white): 2.08, contrast (black): 10.09
+$yellow-8: #ad8b00; // contrast (white): 3.25, contrast (black): 6.47
+$yellow-9: #876800; // contrast (white): 5.24, contrast (black): 4.01
+$yellow-10: #614700; // contrast (white): 8.72, contrast (black): 2.41
 
-$yellow-6: #fadb14; // dark: 15.21
-$yellow-7: #d4b106; // dark: 10.09
-$yellow-8: #ad8b00; // dark: 6.47
-$yellow-9: #876800; // light: 5.24
-$yellow-10: #614700; // light: 8.72
+$lime-1: #fcffe6; // contrast (white): 1.02, contrast (black): 20.59
+$lime-2: #f4ffb8; // contrast (white): 1.06, contrast (black): 19.84
+$lime-3: #eaff8f; // contrast (white): 1.09, contrast (black): 19.20
+$lime-4: #d3f261; // contrast (white): 1.26, contrast (black): 16.64
+$lime-5: #bae637; // contrast (white): 1.45, contrast (black): 14.46
+$lime-6: #a0d911; // contrast (white): 1.69, contrast (black): 12.43
+$lime-7: #7cb305; // contrast (white): 2.53, contrast (black): 8.31
+$lime-8: #5b8c00; // contrast (white): 4.04, contrast (black): 5.20
+$lime-9: #3f6600; // contrast (white): 6.75, contrast (black): 3.11
+$lime-10: #254000; // contrast (white): 11.59, contrast (black): 1.81
 
-$lime-5: #bae637; // dark: 14.46
-$lime-7: #7cb305; // dark: 8.31
-$lime-8: #5b8c00; // dark: 5.20
-$lime-9: #3f6600; // light: 6.75
-$lime-10: #254000; // light: 11.59
+$green-1: #f6ffed; // contrast (white): 1.03, contrast (black): 20.45
+$green-2: #d9f7be; // contrast (white): 1.17, contrast (black): 18.00
+$green-3: #b7eb8f; // contrast (white): 1.37, contrast (black): 15.29
+$green-4: #95de64; // contrast (white): 1.63, contrast (black): 12.91
+$green-5: #73d13d; // contrast (white): 1.92, contrast (black): 10.92
+$green-6: #52c41a; // contrast (white): 2.27, contrast (black): 9.27
+$green-7: #389e0d; // contrast (white): 3.46, contrast (black): 6.06
+$green-8: #237804; // contrast (white): 5.59, contrast (black): 3.76
+$green-9: #135200; // contrast (white): 9.40, contrast (black): 2.23
+$green-10: #092b00; // contrast (white): 15.47, contrast (black): 1.36
 
-$green-5: #73d13d; // dark: 10.92
-$green-6: #52c41a; // dark: 9.27
-$green-7: #389e0d; // dark: 6.06
-$green-8: #237804; // light: 5.59
-$green-9: #135200; // light: 9.40
+$cyan-1: #e6fffb; // contrast (white): 1.05, contrast (black): 20.06
+$cyan-2: #b5f5ec; // contrast (white): 1.22, contrast (black): 17.24
+$cyan-3: #87e8de; // contrast (white): 1.44, contrast (black): 14.63
+$cyan-4: #5cdbd3; // contrast (white): 1.68, contrast (black): 12.53
+$cyan-5: #36cfc9; // contrast (white): 1.92, contrast (black): 10.93
+$cyan-6: #13c2c2; // contrast (white): 2.21, contrast (black): 9.52
+$cyan-7: #08979c; // contrast (white): 3.55, contrast (black): 5.92
+$cyan-8: #006d75; // contrast (white): 6.10, contrast (black): 3.44
+$cyan-9: #00474f; // contrast (white): 10.43, contrast (black): 2.01
+$cyan-10: #002329; // contrast (white): 16.50, contrast (black): 1.27
 
-$cyan-5: #36cfc9; // dark: 10.93
-$cyan-6: #13c2c2; // dark: 9.52
-$cyan-7: #08979c; // dark: 5.92
-$cyan-8: #006d75; // light: 6.10
-$cyan-9: #00474f; // light: 10.43
+$blue-1: #e6f4ff; // contrast (white): 1.12, contrast (black): 18.75
+$blue-2: #bae0ff; // contrast (white): 1.38, contrast (black): 15.19
+$blue-3: #91caff; // contrast (white): 1.74, contrast (black): 12.10
+$blue-4: #69b1ff; // contrast (white): 2.25, contrast (black): 9.33
+$blue-5: #4096ff; // contrast (white): 2.99, contrast (black): 7.02
+$blue-6: #1677ff; // contrast (white): 4.10, contrast (black): 5.12
+$blue-7: #0958d9; // contrast (white): 6.16, contrast (black): 3.41
+$blue-8: #003eb3; // contrast (white): 8.97, contrast (black): 2.34
+$blue-9: #002c8c; // contrast (white): 12.08, contrast (black): 1.74
+$blue-10: #001d66; // contrast (white): 15.36, contrast (black): 1.37
 
-$blue-5: #4096ff; // dark: 7.02
-$blue-6: #1677ff; // dark: 5.12
-$blue-7: #0958d9; // light: 6.16
-$blue-8: #003eb3; // light: 8.97
+$geekblue-1: #f0f5ff; // contrast (white): 1.09, contrast (black): 19.21
+$geekblue-2: #d6e4ff; // contrast (white): 1.28, contrast (black): 16.40
+$geekblue-3: #adc6ff; // contrast (white): 1.71, contrast (black): 12.30
+$geekblue-4: #85a5ff; // contrast (white): 2.38, contrast (black): 8.82
+$geekblue-5: #597ef7; // contrast (white): 3.65, contrast (black): 5.75
+$geekblue-6: #2f54eb; // contrast (white): 5.85, contrast (black): 3.59
+$geekblue-7: #1d39c4; // contrast (white): 8.63, contrast (black): 2.43
+$geekblue-8: #10239e; // contrast (white): 11.96, contrast (black): 1.76
+$geekblue-9: #061178; // contrast (white): 15.45, contrast (black): 1.36
+$geekblue-10: #030852; // contrast (white): 18.10, contrast (black): 1.16
 
-$geekblue-4: #85a5ff; // dark: 8.82
-$geekblue-5: #597ef7; // dark: 5.75
-$geekblue-6: #2f54eb; // light: 5.85
-$geekblue-7: #1d39c4; // light: 8.63
+$purple-1: #f9f0ff; // contrast (white): 1.11, contrast (black): 18.94
+$purple-2: #efdbff; // contrast (white): 1.29, contrast (black): 16.25
+$purple-3: #d3adf7; // contrast (white): 1.89, contrast (black): 11.09
+$purple-4: #b37feb; // contrast (white): 2.94, contrast (black): 7.15
+$purple-5: #9254de; // contrast (white): 4.62, contrast (black): 4.55
+$purple-6: #722ed1; // contrast (white): 6.94, contrast (black): 3.03
+$purple-7: #531dab; // contrast (white): 9.85, contrast (black): 2.13
+$purple-8: #391085; // contrast (white): 13.23, contrast (black): 1.59
+$purple-9: #22075e; // contrast (white): 16.67, contrast (black): 1.26
+$purple-10: #120338; // contrast (white): 19.16, contrast (black): 1.10
 
-$purple-4: #b37feb; // dark: 7.15
-$purple-5: #9254de; // dark: 4.55
-$purple-6: #722ed1; // light: 6.94
-$purple-7: #531dab; // light: 9.85
-
-$magenta-4: #ff85c0; // dark: 9.37
-$magenta-5: #f759ab; // dark: 6.97
-$magenta-6: #eb2f96; // dark: 5.38
-$magenta-7: #c41d7f; // light: 5.48
-$magenta-8: #9e1068; // light: 7.70
+$magenta-1: #fff0f6; // contrast (white): 1.10, contrast (black): 19.05
+$magenta-2: #ffd6e7; // contrast (white): 1.31, contrast (black): 16.02
+$magenta-3: #ffadd2; // contrast (white): 1.73, contrast (black): 12.16
+$magenta-4: #ff85c0; // contrast (white): 2.24, contrast (black): 9.37
+$magenta-5: #f759ab; // contrast (white): 3.01, contrast (black): 6.97
+$magenta-6: #eb2f96; // contrast (white): 3.90, contrast (black): 5.38
+$magenta-7: #c41d7f; // contrast (white): 5.48, contrast (black): 3.83
+$magenta-8: #9e1068; // contrast (white): 7.70, contrast (black): 2.73
+$magenta-9: #780650; // contrast (white): 10.82, contrast (black): 1.94
+$magenta-10: #520339; // contrast (white): 14.68, contrast (black): 1.43
 
 $theme-color: $cyan-6;
 
 $h1-color: (
-  dark: $cyan-5,
-  light: $cyan-8,
+  dark: $theme-color,
+  light: $theme-color,
 );
 
 $h2-color: (
-  dark: $magenta-4,
-  light: $magenta-7,
-);
-
-$h3-color: (
-  dark: $geekblue-4,
+  dark: $green-6,
   light: $geekblue-6,
 );
 
+$h3-color: (
+  dark: $orange-6,
+  light: $magenta-6,
+);
+
 $h4-color: (
-  dark: $lime-5,
-  light: $lime-9,
+  dark: $volcano-6,
+  light: $yellow-6,
 );
 
 $h5-color: (
-  dark: $gold-5,
-  light: $gold-9,
+  dark: $red-6,
+  light: $lime-6,
 );
 
 $h6-color: (
-  dark: $volcano-5,
-  light: $volcano-7,
+  dark: $gold-6,
+  light: $gold-6,
 );
 
 $em-color: (
-  dark: $green-5,
-  light: $green-8,
+  dark: $geekblue-6,
+  light: $purple-6,
 );
 
 $s-color: (
-  dark: $blue-5,
-  light: $blue-7,
+  dark: $magenta-6,
+  light: $red-6,
 );
 
 $strong-color: (
-  dark: $purple-4,
-  light: $purple-6,
+  dark: $theme-color,
+  light: $theme-color,
 );
