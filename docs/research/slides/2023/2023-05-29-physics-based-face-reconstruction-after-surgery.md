@@ -2,6 +2,9 @@
 title: Physics-based Face Reconstruction after Surgery
 category:
   - Research
+tag:
+  - Computer Graphics
+  - Physics
 layout: Slide
 ---
 

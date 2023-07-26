@@ -1,3 +1,29 @@
+.reveal .slides {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-transform: none;
+  }
+
+  table {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+del,
+s {
+  color: var(--s-color);
+}
+
+em {
+  color: var(--em-color);
+}
+
 h1 {
   color: var(--h1-color);
 }
@@ -20,14 +46,6 @@ h5 {
 
 h6 {
   color: var(--h6-color);
-}
-
-em {
-  color: var(--em-color);
-}
-
-s {
-  color: var(--s-color);
 }
 
 strong {
