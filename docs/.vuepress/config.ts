@@ -1,7 +1,10 @@
 import { docsearchPlugin } from "@vuepress/plugin-docsearch";
+import { getDirname, path } from "@vuepress/utils";
 import { defineUserConfig } from "vuepress";
-import default_frontmatter_plugin from "./plugin/default-frontmatter";
-import theme from "./theme";
+import default_frontmatter_plugin from "./plugin/default-frontmatter/index.js";
+import theme from "./theme.js";
+
+const dirname = getDirname(import.meta.url);
 
 // https://v2.vuepress.vuejs.org/reference/config.html
 export default defineUserConfig({
@@ -39,4 +42,13 @@ export default defineUserConfig({
     }),
     default_frontmatter_plugin,
   ],
+
+  // Theme Presets
+  // https://theme-hope.vuejs.press/guide/advanced/presets.html
+  alias: {
+    "@theme-hope/modules/blog/components/BlogHero": path.resolve(
+      dirname,
+      "./components/BlogHero.vue",
+    ),
+  },
 });

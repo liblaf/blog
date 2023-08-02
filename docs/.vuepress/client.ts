@@ -6,4 +6,4 @@ defineRevealConfig({
   width: 1600,
 });
 
-export default defineClientConfig({});
+export default defineClientConfig();
