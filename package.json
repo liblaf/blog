@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "My Blog",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "build": "vuepress build docs",
     "clean-dev": "vuepress dev docs --clean-cache --clean-temp",
