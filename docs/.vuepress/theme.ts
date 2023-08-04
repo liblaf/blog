@@ -22,7 +22,7 @@ export default hopeTheme(
     // Theme Feature Options > Blog Options
     blog: {
       name: "liblaf",
-      avatar: "https://assets.liblaf.me/avatar/jpg/qiqi.jpg",
+      avatar: "https://assets.liblaf.me/avatar/jpg/nahida.jpg",
       description: "Life blooms like a flower",
       intro: "https://liblaf.me",
       medias: {
