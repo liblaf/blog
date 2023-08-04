@@ -5,16 +5,24 @@ layout: BlogHome
 tagline: Life blooms like a flower
 title: Home
 projects:
+  - name: AList
+    desc: My Cloud Storage
+    link: https://alist.liblaf.me
+    icon: https://assets.liblaf.me/favicon/png/a.png
   - name: Assets
     desc: My Static Assets
     link: https://assets.liblaf.me
+    icon: https://assets.liblaf.me/favicon/png/a.png
+  - name: Awesome
+    desc: My Awesome Lists
+    link: https://awesome.liblaf.me
     icon: https://assets.liblaf.me/favicon/png/a.png
   - name: Blog
     desc: My Blog
     link: https://blog.liblaf.me
     icon: https://assets.liblaf.me/favicon/png/b.png
   - name: CDN
-    desc: An index & manager of Onedrive based on serverless.
+    desc: Simple URL Redirection
     link: https://cdn.liblaf.me
     icon: https://assets.liblaf.me/favicon/png/c.png
   - name: Metrics
@@ -30,11 +38,7 @@ projects:
     link: https://resume.liblaf.me
     icon: https://assets.liblaf.me/favicon/png/r.png
   - name: Status
-    desc: Uptime monitor and status page
+    desc: Uptime Monitor and Status Page
     link: https://status.liblaf.me
     icon: https://assets.liblaf.me/favicon/png/s.png
-  - name: 未央书院答疑坊
-    desc: 加入我们, 为同学们答疑解惑!
-    link: https://wydyf.liblaf.me
-    icon: https://assets.liblaf.me/favicon/png/w.png
 ---
