@@ -5,7 +5,6 @@ category:
 tag:
   - Computer Graphics
   - Physics
-layout: Slide
 ---
 
 @slidestart
