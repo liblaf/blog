@@ -15,6 +15,22 @@ tag:
 
 ---
 
+## Introduction
+
+- **Data Collection:** pre- & post- surgery CT of individuals
+- **Target**
+  - **Input:** pre-surgery CT + surgical details (post-surgery skeleton)
+  - **Output:** post-surgery face
+
+---
+
+## 上周结果
+
+| ![Frame-0](https://cdn.liblaf.me/img/2023/08/09/2023-08-09T163128.png) | ![Frame-1](https://cdn.liblaf.me/img/2023/08/09/2023-08-09T163349.png) | ![Video](https://cdn.liblaf.me/img/2023/08/09/2023-08-09T163433.gif) |
+| :--------------------------------------------------------------------: | :--------------------------------------------------------------------: | :------------------------------------------------------------------: |
+
+---
+
 ## 上周计划
 
 - [ ] ~~确认 LLT 分解无法扩大规模的原因~~
@@ -86,6 +102,7 @@ tag:
 
 ## 下周计划
 
+- [ ] 在一个 Bunny 内放两个球进行测试
 - [ ] 对人脸和骨骼做初步预处理
 - [ ] 在人脸 (ICT) 上进行测试
 - [ ] 关注增大弹簧劲度系数后, 固定点约束的效果
