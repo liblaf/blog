@@ -17,8 +17,8 @@ dev: $(FAVICON)
 dist: $(FAVICON)
 	$(PNPM) build
 
-pretty: $(CURDIR)/.gitignore
-	prettier --write --ignore-path=$< $(CURDIR)
+pretty:
+	prettier --write $(CURDIR)
 
 setup:
 	pnpm install
