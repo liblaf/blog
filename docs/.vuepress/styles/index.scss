@@ -9,7 +9,16 @@
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+    gap: 1em;
     justify-content: space-evenly;
+    figure {
+      flex: 1;
+      margin: 0;
+    }
+    video {
+      flex: 1;
+      min-width: 0;
+    }
   }
   h1,
   h2,
