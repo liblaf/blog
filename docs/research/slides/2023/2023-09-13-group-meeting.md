@@ -31,6 +31,10 @@ layout: Slide
 
 <div class="columns">
   <figure>
+    <img src="https://cdn.liblaf.me/img/2023/09/14/2023-09-14T165806.png" />
+    <figcaption> Raw </figcaption>
+  </figure>
+  <figure>
     <img src="https://cdn.liblaf.me/img/2023/09/14/2023-09-14T152809.png" />
     <figcaption> Threshold </figcaption>
   </figure>
