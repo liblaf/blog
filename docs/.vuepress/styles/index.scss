@@ -5,15 +5,26 @@
 
 .reveal .slides {
   .columns {
-    align-content: center;
-    align-items: center;
+    align-content: flex-start;
+    align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
     justify-content: space-evenly;
     figure {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       flex: 1;
+      height: 100%;
       margin: 0;
+      figcaption {
+        align-self: flex-start;
+        width: 100%;
+      }
+      img {
+        max-width: 100%;
+      }
     }
     video {
       flex: 1;
