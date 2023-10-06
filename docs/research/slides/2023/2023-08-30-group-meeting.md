@@ -1,5 +1,5 @@
 ---
-title: 组会 2023-08-23
+title: 组会 2023-08-30
 category:
   - Research
 tag:
