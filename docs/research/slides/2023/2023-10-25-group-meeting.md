@@ -4,7 +4,6 @@ category:
   - Research
 tag:
   - Computer Graphics
-  - Physics
 layout: Slide
 ---
 
