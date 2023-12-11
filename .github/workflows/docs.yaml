@@ -2,14 +2,12 @@ name: Documentation
 
 on:
   push:
-    branches:
-      - main
 
 permissions:
   contents: write
 
 concurrency:
-  group: ${{ github.workflow }}
+  group: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   docs:
@@ -39,3 +37,15 @@ jobs:
         with:
           folder: docs/.vuepress/dist
           single-commit: true
+
+  check:
+    name: Check
+    needs:
+      - docs
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check
+        uses: re-actors/alls-green@release/v1
+        with:
+          jobs: ${{ toJSON(needs) }}
