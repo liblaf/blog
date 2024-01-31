@@ -1,3 +1,0 @@
----
-title: "Mathematical Physics Equations"
----

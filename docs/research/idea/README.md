@@ -1,4 +1,0 @@
----
-title: Idea
-icon: creative
----

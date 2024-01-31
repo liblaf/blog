@@ -1,4 +1,0 @@
----
-title: Jottings
-icon: others
----

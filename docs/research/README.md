@@ -1,4 +1,0 @@
----
-title: Research
-icon: study
----
