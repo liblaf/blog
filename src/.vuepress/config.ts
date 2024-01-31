@@ -1,6 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import { getDirname, path } from "vuepress/utils";
 import theme from "./theme.js";
+import frontmatter from "./plugins/frontmatter/index.js";
 
 const __dirname: string = getDirname(import.meta.url);
 
@@ -21,7 +22,7 @@ export default defineUserConfig({
   },
 
   // Plugin Config
-  plugins: [],
+  plugins: [frontmatter()],
 
   // Theme Presets
   // https://theme-hope.vuejs.press/guide/advanced/presets.html

@@ -1,5 +1,6 @@
 import { PluginsOptions } from "vuepress-theme-hope";
 import { Page } from "vuepress";
+import { path } from "vuepress/utils";
 
 // https://theme-hope.vuejs.press/config/plugins/
 export default {
@@ -100,6 +101,23 @@ export default {
   },
 
   autoCatalog: {
-    frontmatter: (path: string): Record<string, any> => ({}),
+    frontmatter: (pathString: string): Record<string, any> => {
+      const basename: string = path.basename(pathString);
+      return FRONTMATTER[basename] || {};
+    },
   },
 } satisfies PluginsOptions;
+
+const FRONTMATTER: Record<string, Record<string, any>> = {
+  "course-notes": { title: "Course Notes", icon: "material-symbols:notes" },
+  "course-work": { title: "Course Work", icon: "material-symbols:assignment" },
+  "dev-env": { title: "Dev Env", icon: "mdi:code" },
+  csapp: { title: "CSAPP" },
+  hpc: { title: "HPC" },
+  idea: { title: "Idea", icon: "mdi:idea" },
+  latex: { title: "LaTeX", icon: "tabler:tex" },
+  linux: { title: "Linux", icon: "mdi:linux" },
+  notes: { title: "Notes", icon: "material-symbols:notes" },
+  research: { title: "Research", icon: "material-symbols:lab-research" },
+  slides: { title: "Slides", icon: "icon-park-outline:slide" },
+};
