@@ -112,6 +112,7 @@ const FRONTMATTER: Record<string, Record<string, any>> = {
   "course-notes": { title: "Course Notes", icon: "material-symbols:notes" },
   "course-work": { title: "Course Work", icon: "material-symbols:assignment" },
   "dev-env": { title: "Dev Env", icon: "mdi:code" },
+  causeries: { title: "Causeries", icon: "mdi:diary" },
   csapp: { title: "CSAPP" },
   hpc: { title: "HPC" },
   idea: { title: "Idea", icon: "mdi:idea" },
