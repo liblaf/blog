@@ -3,12 +3,6 @@ name: Documentation
 on:
   push:
 
-permissions:
-  contents: write
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-
 jobs:
   docs:
     name: Documentation
@@ -18,34 +12,25 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Setup pnpm
+      - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
+          run_install: true
           version: latest
-          run_install: |-
-            args:
-              - --shamefully-hoist
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: latest
           cache: pnpm
-      - name: Build
-        run: make dist
-      - name: Deploy to GitHub Pages
+      - name: Build Documentation
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |
+          pnpm run docs:build
+          > src/.vuepress/dist/.nojekyll
+      - if: github.ref == 'refs/heads/main'
+        name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: docs/.vuepress/dist
+          folder: src/.vuepress/dist
           single-commit: true
-
-  check:
-    name: Check
-    needs:
-      - docs
-    if: always()
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check
-        uses: re-actors/alls-green@release/v1
-        with:
-          jobs: ${{ toJSON(needs) }}

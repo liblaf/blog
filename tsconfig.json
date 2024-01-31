@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": "docs/.vuepress",
-    "module": "ESNext",
-    "moduleResolution": "NodeNext"
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2022",
   },
-  "include": ["docs/.vuepress/**/*.ts", "docs/.vuepress/**/*.vue"]
+  "include": ["./src/.vuepress/**/*.ts"],
 }
