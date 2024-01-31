@@ -159,9 +159,9 @@ root@archiso ~ # shutdown now
 
 ### Partitioning
 
-![Before Partitioning](https://cdn.liblaf.me/img/2023/03/08/20230308-1678256526.png)
+![Before Partitioning](https://cdn.liblaf.me/img/2023/03/08/2023-03-08T062206.png)
 
-![After Partitioning](https://cdn.liblaf.me/img/2023/03/08/20230308-1678256552.png)
+![After Partitioning](https://cdn.liblaf.me/img/2023/03/08/2023-03-08T062232.png)
 
 ## Install Arch Linux
 

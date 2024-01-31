@@ -21,7 +21,7 @@ layout: Slide
 - implemented Projective Dynamics (PD) using Conjugate Gradient (CG) solver
 - got unstable results on spherical shell
 
-![Demo](https://cdn.liblaf.me/img/2023/05/29/2023-05-29-22-17-15.png)
+![Demo](https://cdn.liblaf.me/img/2023/05/29/2023-05-29T221715.png)
 
 ---
 
