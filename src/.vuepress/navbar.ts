@@ -5,5 +5,10 @@ export default navbar([
   { text: "Article", link: "/article/", icon: "material-symbols:article" },
   { text: "Category", link: "/category/", icon: "material-symbols:category" },
   { text: "Tag", link: "/tag/", icon: "material-symbols:tag" },
-  { text: "Timeline", link: "/timeline/", icon: "material-symbols:timeline" },
+  {
+    text: "Timeline",
+    link: "/timeline/",
+    icon: "material-symbols:timeline",
+    children: ["/timeline/", "/2023/", "/2022/"],
+  },
 ]);
