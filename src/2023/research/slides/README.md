@@ -1,4 +1,0 @@
----
-title: Slides
-icon: slides
----
