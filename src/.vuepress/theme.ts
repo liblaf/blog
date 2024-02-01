@@ -24,7 +24,7 @@ export default hopeTheme(
       name: "liblaf",
       avatar: "https://assets.liblaf.me/avatar/png/nahida.png",
       description: "Life blooms like a flower",
-      intro: "Too young, too simple",
+      intro: "https://liblaf.me",
       medias: {
         Email: "mailto:i@liblaf.me",
         GitHub: "https://github.com/liblaf",
