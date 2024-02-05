@@ -15,8 +15,8 @@ devDependencies:
     specifier: ^3.2.2
     version: 3.2.2
   mermaid:
-    specifier: ^10.7.0
-    version: 10.7.0
+    specifier: ^10.8.0
+    version: 10.8.0
   reveal.js:
     specifier: ^5.0.4
     version: 5.0.4
@@ -31,7 +31,7 @@ devDependencies:
     version: 2.0.0-rc.18(vuepress@2.0.0-rc.2)
   vuepress-theme-hope:
     specifier: 2.0.0-rc.18
-    version: 2.0.0-rc.18(katex@0.16.9)(markdown-it@14.0.0)(mathjax-full@3.2.2)(mermaid@10.7.0)(reveal.js@5.0.4)(vuepress-plugin-search-pro@2.0.0-rc.18)(vuepress@2.0.0-rc.2)
+    version: 2.0.0-rc.18(katex@0.16.9)(markdown-it@14.0.0)(mathjax-full@3.2.2)(mermaid@10.8.0)(reveal.js@5.0.4)(vuepress-plugin-search-pro@2.0.0-rc.18)(vuepress@2.0.0-rc.2)
 
 packages:
 
@@ -1273,7 +1273,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.22.3
-      caniuse-lite: 1.0.30001582
+      caniuse-lite: 1.0.30001583
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -1311,8 +1311,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001582
-      electron-to-chromium: 1.4.654
+      caniuse-lite: 1.0.30001583
+      electron-to-chromium: 1.4.656
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.22.3)
     dev: true
@@ -1327,8 +1327,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite@1.0.30001582:
-    resolution: {integrity: sha512-vsJG3V5vgfduaQGVxL53uSX/HUzxyr2eA8xCo36OLal7sRcSZbibJtLeh0qja4sFOr/QQGt4opB4tOy+eOgAxg==}
+  /caniuse-lite@1.0.30001583:
+    resolution: {integrity: sha512-acWTYaha8xfhA/Du/z4sNZjHUWjkiuoAi2LM+T/aL+kemKQgPT1xBb/YKjlQ0Qo8gvbHsGNplrEJ+9G3gL7i4Q==}
     dev: true
 
   /chalk@5.3.0:
@@ -1436,12 +1436,6 @@ packages:
       layout-base: 1.0.2
     dev: true
 
-  /cose-base@2.2.0:
-    resolution: {integrity: sha512-AzlgcsCbUMymkADOJtQm3wO9S3ltPfYOFD5033keQn9NJzIbtnZj+UdBJe7DYml/8TdbtHJW3j58SOnKhWY/5g==}
-    dependencies:
-      layout-base: 2.0.1
-    dev: true
-
   /create-codepen@1.0.1:
     resolution: {integrity: sha512-XzSWwGCFNeOnNGp3KdCDGaKq4Cp1SvjzpPGQqO0tj1HT3BhksLdl/xQ2ZEY4+0MQ3m1I/K1Fvpm4GGMthtamyA==}
     dev: true
@@ -1480,15 +1474,6 @@ packages:
       cytoscape: ^3.2.0
     dependencies:
       cose-base: 1.0.3
-      cytoscape: 3.28.1
-    dev: true
-
-  /cytoscape-fcose@2.2.0(cytoscape@3.28.1):
-    resolution: {integrity: sha512-ki1/VuRIHFCzxWNrsshHYPs6L7TvLu3DL+TyIGEsRcvVERmxokbf5Gdk7mFxZnTdiGtnA4cfSmjZJMviqSuZrQ==}
-    peerDependencies:
-      cytoscape: ^3.2.0
-    dependencies:
-      cose-base: 2.2.0
       cytoscape: 3.28.1
     dev: true
 
@@ -1856,8 +1841,8 @@ packages:
       domhandler: 5.0.3
     dev: true
 
-  /electron-to-chromium@1.4.654:
-    resolution: {integrity: sha512-hjfFa+Vj4WGLRVTlCQa+IivBkpcp+boGxMQfusOC/me5Y5NfU4wX7wyw+K9p8Cw4tl0BVIZGH2n7y/jMc3w4pg==}
+  /electron-to-chromium@1.4.656:
+    resolution: {integrity: sha512-9AQB5eFTHyR3Gvt2t/NwR0le2jBSUNwCnMbUCejFWHD+so4tH40/dRLgoE+jxlPeWS43XJewyvCv+I8LPMl49Q==}
     dev: true
 
   /elkjs@0.9.1:
@@ -2224,10 +2209,6 @@ packages:
     resolution: {integrity: sha512-8h2oVEZNktL4BH2JCOI90iD1yXwL6iNW7KcCKT2QZgQJR2vbqDsldCTPRU9NifTCqHZci57XvQQ15YTu+sTYPg==}
     dev: true
 
-  /layout-base@2.0.1:
-    resolution: {integrity: sha512-dp3s92+uNI1hWIpPGH3jK2kxE2lMjdXdr+DH8ynZHpd6PUlH6x6cbuXnoMmiNumznqaNO31xu9e79F0uuZ0JFg==}
-    dev: true
-
   /lilconfig@3.0.0:
     resolution: {integrity: sha512-K2U4W2Ff5ibV7j7ydLr+zLAkIg5JJ4lPn1Ltsdt+Tz/IjQ8buJ55pZAxoP34lqIiwtF9iAvtLv3JGv7CAyAg+g==}
     engines: {node: '>=14'}
@@ -2371,15 +2352,14 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /mermaid@10.7.0:
-    resolution: {integrity: sha512-PsvGupPCkN1vemAAjScyw4pw34p4/0dZkSrqvAB26hUvJulOWGIwt35FZWmT9wPIi4r0QLa5X0PB4YLIGn0/YQ==}
+  /mermaid@10.8.0:
+    resolution: {integrity: sha512-9CzfSreRjdDJxX796+jW4zjEq0DVw5xVF0nWsqff8OTbrt+ml0TZ5PyYUjjUZJa2NYxYJZZXewEquxGiM8qZEA==}
     dependencies:
       '@braintree/sanitize-url': 6.0.4
       '@types/d3-scale': 4.0.8
       '@types/d3-scale-chromatic': 3.0.3
       cytoscape: 3.28.1
       cytoscape-cose-bilkent: 4.1.0(cytoscape@3.28.1)
-      cytoscape-fcose: 2.2.0(cytoscape@3.28.1)
       d3: 7.8.5
       d3-sankey: 0.12.3
       dagre-d3-es: 7.0.10
@@ -3316,7 +3296,7 @@ packages:
       - typescript
     dev: true
 
-  /vuepress-plugin-md-enhance@2.0.0-rc.18(katex@0.16.9)(markdown-it@14.0.0)(mathjax-full@3.2.2)(mermaid@10.7.0)(reveal.js@5.0.4)(vuepress@2.0.0-rc.2):
+  /vuepress-plugin-md-enhance@2.0.0-rc.18(katex@0.16.9)(markdown-it@14.0.0)(mathjax-full@3.2.2)(mermaid@10.8.0)(reveal.js@5.0.4)(vuepress@2.0.0-rc.2):
     resolution: {integrity: sha512-smn8Uagbhyeim+JtOeOdSMio+YXHhHk3RXRjj1z7PLFkY7zcY44v/BvChUDeWV/I4/aaOGWashmSud0Hi1Cs0g==}
     engines: {node: '>=18.16.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -3396,7 +3376,7 @@ packages:
       js-yaml: 4.1.0
       katex: 0.16.9
       mathjax-full: 3.2.2
-      mermaid: 10.7.0
+      mermaid: 10.8.0
       reveal.js: 5.0.4
       vue: 3.4.15
       vue-router: 4.2.5(vue@3.4.15)
@@ -3529,7 +3509,7 @@ packages:
       - typescript
     dev: true
 
-  /vuepress-theme-hope@2.0.0-rc.18(katex@0.16.9)(markdown-it@14.0.0)(mathjax-full@3.2.2)(mermaid@10.7.0)(reveal.js@5.0.4)(vuepress-plugin-search-pro@2.0.0-rc.18)(vuepress@2.0.0-rc.2):
+  /vuepress-theme-hope@2.0.0-rc.18(katex@0.16.9)(markdown-it@14.0.0)(mathjax-full@3.2.2)(mermaid@10.8.0)(reveal.js@5.0.4)(vuepress-plugin-search-pro@2.0.0-rc.18)(vuepress@2.0.0-rc.2):
     resolution: {integrity: sha512-9ezkJB3oajnCi6ynQPNNoo/0NLhYFPzVfVpOiv2f9JgmeRIIEXJVL6ymzIOedsTtG2xMwBO0vhmrNFuFVsbaWA==}
     engines: {node: '>=18.16.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -3584,7 +3564,7 @@ packages:
       vuepress-plugin-comment2: 2.0.0-rc.18(vuepress@2.0.0-rc.2)
       vuepress-plugin-components: 2.0.0-rc.18(vuepress@2.0.0-rc.2)
       vuepress-plugin-copyright2: 2.0.0-rc.18(vuepress@2.0.0-rc.2)
-      vuepress-plugin-md-enhance: 2.0.0-rc.18(katex@0.16.9)(markdown-it@14.0.0)(mathjax-full@3.2.2)(mermaid@10.7.0)(reveal.js@5.0.4)(vuepress@2.0.0-rc.2)
+      vuepress-plugin-md-enhance: 2.0.0-rc.18(katex@0.16.9)(markdown-it@14.0.0)(mathjax-full@3.2.2)(mermaid@10.8.0)(reveal.js@5.0.4)(vuepress@2.0.0-rc.2)
       vuepress-plugin-photo-swipe: 2.0.0-rc.18(vuepress@2.0.0-rc.2)
       vuepress-plugin-reading-time2: 2.0.0-rc.18(vuepress@2.0.0-rc.2)
       vuepress-plugin-rtl: 2.0.0-rc.18(vuepress@2.0.0-rc.2)
