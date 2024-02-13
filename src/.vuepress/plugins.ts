@@ -100,7 +100,7 @@ export default {
     indexContent: true,
   },
 
-  autoCatalog: {
+  catalog: {
     frontmatter: (pathString: string): Record<string, any> => {
       const basename: string = path.basename(pathString);
       return FRONTMATTER[basename] || {};
