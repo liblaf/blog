@@ -9,6 +9,6 @@ export default navbar([
     text: "Timeline",
     link: "/timeline/",
     icon: "material-symbols:timeline",
-    children: ["/timeline/", "/2023/", "/2022/"],
+    children: ["/timeline/", "/2024/", "/2023/", "/2022/"],
   },
 ]);

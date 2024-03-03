@@ -1,10 +1,11 @@
 ---
-title: "SCULPTOR: Skeleton-Consistent Face Creation Using a Learned Parametric Generator"
 category:
   - Reading Notes
   - Research
 tag:
   - Face Model
+title: "SCULPTOR: Skeleton-Consistent Face Creation Using a Learned Parametric Generator"
+typora-root-url: ../../../.vuepress/public
 ---
 
 | Model                |     Parametric     |       Skull        |        Face        | Anatomically Consistent |       Shape        |        Pose        |     Expression     |     Appearance     |       Trait        |

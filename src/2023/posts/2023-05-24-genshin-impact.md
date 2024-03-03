@@ -1,9 +1,10 @@
 ---
-title: Genshin Impact
 category:
-  - Causeries
+  - Posts
 tag:
   - Genshin Impact
+title: Genshin Impact
+typora-root-url: ../../.vuepress/public
 ---
 
 > 如果拘泥于真假, 那岂不是就错过了很多美好与感动嘛. --- 宵宫[^1]

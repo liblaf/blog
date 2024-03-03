@@ -1,11 +1,13 @@
 ---
-title: 组会 2023-08-23
 category:
+  - Group Meeting
   - Research
+layout: Slide
 tag:
   - Computer Graphics
   - Physics
-layout: Slide
+title: 组会 2023-08-23
+typora-root-url: ../../../.vuepress/public
 ---
 
 @slidestart
@@ -29,10 +31,10 @@ layout: Slide
 ### Bunny
 
 <div class="columns">
-  <img width="32%" height="24%" src="https://cdn.liblaf.me/img/2023/08/23/2023-08-23T151429.png" />
-  <img width="32%" height="24%" src="https://cdn.liblaf.me/img/2023/08/23/2023-08-23T154153.png" />
+  <img width="32%" height="24%" src="/img/2023/2023-08-23T151429Z.png" />
+  <img width="32%" height="24%" src="/img/2023/2023-08-23T154153Z.png" />
   <video width="32%" height="24%" autoplay controls loop muted>
-    <source src="https://cdn.liblaf.me/img/2023/08/23/2023-08-23T151048.mp4" />
+    <source src="/img/2023/2023-08-23T151048Z.mp4" />
   </video>
 </div>
 
@@ -41,10 +43,10 @@ layout: Slide
 ### Template Head
 
 <div class="columns">
-  <img width="32%" height="24%" src="https://cdn.liblaf.me/img/2023/08/23/2023-08-23T154715.png" />
-  <img width="32%" height="24%" src="https://cdn.liblaf.me/img/2023/08/23/2023-08-23T154734.png" />
+  <img width="32%" height="24%" src="/img/2023/2023-08-23T154715Z.png" />
+  <img width="32%" height="24%" src="/img/2023/2023-08-23T154734Z.png" />
   <video width="32%" height="24%" autoplay controls loop muted>
-    <source src="https://cdn.liblaf.me/img/2023/08/23/2023-08-23T154651.mp4" />
+    <source src="/img/2023/2023-08-23T154651Z.mp4" />
   </video>
 </div>
 

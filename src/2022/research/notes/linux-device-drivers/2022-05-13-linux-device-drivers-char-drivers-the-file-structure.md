@@ -1,13 +1,15 @@
 ---
-title: "Linux Device Drivers | Char Drivers | The file Structure"
 category:
-  - "Linux"
-  - "C/C++"
-tag:
-  - "Linux Kernel"
-  - "Linux Device Drivers"
-  - "Char Drivers"
+  - Research
 isOriginal: false
+tag:
+  - C/C++
+  - Char Drivers
+  - Linux
+  - Linux Device Drivers
+  - Linux Kernel
+title: Linux Device Drivers | Char Drivers | The file Structure
+typora-root-url: ../../../../.vuepress/public
 ---
 
 ```c

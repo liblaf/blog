@@ -1,10 +1,11 @@
 ---
-title: "SCAPE: Shape Completion and Animation of People"
 category:
   - Reading Notes
   - Research
 tag:
   - Body Model
+title: "SCAPE: Shape Completion and Animation of People"
+typora-root-url: ../../../.vuepress/public
 ---
 
 ## TL;DR

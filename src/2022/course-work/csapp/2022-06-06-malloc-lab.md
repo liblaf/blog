@@ -1,10 +1,11 @@
 ---
-title: "Malloc Lab"
 category:
-  - "Course Work"
+  - Course Work
 tag:
-  - "Computer Organization and Architecture"
-  - "Malloc Lab"
+  - Computer Organization and Architecture
+  - Malloc Lab
+title: Malloc Lab
+typora-root-url: ../../../.vuepress/public
 ---
 
 基于 Segregated Free Lists + First Fit + Immediate Coalescing + Smart Reallocation 实现.

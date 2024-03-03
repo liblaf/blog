@@ -1,10 +1,11 @@
 ---
-title: "exp3: 测量 OpenMP 并行 for 循环不同调度策略的性能"
 category:
-  - "Course Work"
+  - Course Work
 tag:
-  - "Introduction to High Performance Computing"
-  - "OMP"
+  - Introduction to High Performance Computing
+  - OMP
+title: "exp3: 测量 OpenMP 并行 for 循环不同调度策略的性能"
+typora-root-url: ../../../.vuepress/public
 ---
 
 | 调度策略           | static     | dynamic    | guided     |

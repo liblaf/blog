@@ -1,10 +1,12 @@
 ---
-title: "How to Build Telegram for Android"
 category:
-  - "Android"
+  - Research
 tag:
-  - "NDK"
-  - "Telegram"
+  - Android
+  - NDK
+  - Telegram
+title: How to Build Telegram for Android
+typora-root-url: ../../../.vuepress/public
 ---
 
 ## TL;DR

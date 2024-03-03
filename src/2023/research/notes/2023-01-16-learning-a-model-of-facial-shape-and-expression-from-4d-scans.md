@@ -1,10 +1,11 @@
 ---
-title: Learning a model of facial shape and expression from 4D scans
 category:
   - Reading Notes
   - Research
 tag:
   - Face Model
+title: Learning a model of facial shape and expression from 4D scans
+typora-root-url: ../../../.vuepress/public
 ---
 
 - [[PDF] games-cn.org](https://slides.games-cn.org/pdf/GAMES201727李天野.pdf)

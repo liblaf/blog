@@ -1,12 +1,14 @@
 ---
-title: "Linux Device Drivers | Concurrency and Race Conditions"
 category:
-  - "Linux"
-  - "C/C++"
-tag:
-  - "Linux Kernel"
-  - "Linux Device Drivers"
+  - Research
 isOriginal: false
+tag:
+  - C/C++
+  - Linux
+  - Linux Device Drivers
+  - Linux Kernel
+title: Linux Device Drivers | Concurrency and Race Conditions
+typora-root-url: ../../../../.vuepress/public
 ---
 
 ###### <asm/semaphore.h> (not found)

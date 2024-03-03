@@ -1,9 +1,10 @@
 ---
-title: Clash Auto Select
 category:
-  - Dev Env
+  - Posts
 tag:
   - Clash
+title: Clash Auto Select
+typora-root-url: ../../.vuepress/public
 ---
 
 ## Edit Parsers

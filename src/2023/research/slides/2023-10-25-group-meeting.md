@@ -1,10 +1,12 @@
 ---
-title: 组会 2023-10-25
 category:
+  - Group Meeting
   - Research
+layout: Slide
 tag:
   - Computer Graphics
-layout: Slide
+title: 组会 2023-10-25
+typora-root-url: ../../../.vuepress/public
 ---
 
 @slidestart

@@ -1,6 +1,10 @@
 ---
-title: 2024-02-28 组会
+category:
+  - Group Meeting
+  - Research
 layout: Slide
+title: 2024-02-28 组会
+typora-root-url: ../../../.vuepress/public
 ---
 
 @slidestart
@@ -60,7 +64,7 @@ mesh-kit view register ~/Documents/data/targets/*/pre/register-skull/
   - 平坦 / 距离近时, 希望以 position 为重
 - 目前采用 normal 权重逐渐趋小, 然而, 上述两种情况常同时存在于注册过程中
 
-![Demonstration](https://cdn.liblaf.me/img/2024/02/27/2024-02-27T073656.webp)
+![Demonstration](/img/2024/2024-02-27T073656Z.webp)
 
 ---
 

@@ -1,10 +1,11 @@
 ---
-title: "Class 2 Assignments --- Notting Hill"
 category:
-  - "Course Work"
+  - Course Work
 tag:
   - "From the Silver Screen: English Films Appreciation"
-  - "Notting Hill"
+  - Notting Hill
+title: Class 2 Assignments --- Notting Hill
+typora-root-url: ../../../.vuepress/public
 ---
 
 ## Vocabulary

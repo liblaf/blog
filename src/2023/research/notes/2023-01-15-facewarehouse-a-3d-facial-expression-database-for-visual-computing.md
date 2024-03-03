@@ -1,10 +1,11 @@
 ---
-title: "FaceWarehouse: a 3D Facial Expression Database for Visual Computing"
 category:
   - Reading Notes
   - Research
 tag:
   - Face Model
+title: "FaceWarehouse: a 3D Facial Expression Database for Visual Computing"
+typora-root-url: ../../../.vuepress/public
 ---
 
 - <https://ieeexplore.ieee.org/abstract/document/6654137/>

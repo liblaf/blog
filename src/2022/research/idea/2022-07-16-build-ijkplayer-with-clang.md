@@ -1,11 +1,13 @@
 ---
-title: "Build ijkplayer with Clang"
 category:
-  - "Android"
+  - Research
 tag:
-  - "ijkplayer"
-  - "NDK"
-  - "Clang"
+  - Android
+  - Clang
+  - NDK
+  - ijkplayer
+title: Build ijkplayer with Clang
+typora-root-url: ../../../.vuepress/public
 ---
 
 ## How to Build ijkplayer

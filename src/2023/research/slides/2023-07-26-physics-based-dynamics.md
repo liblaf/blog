@@ -1,11 +1,13 @@
 ---
-title: Physics-based Dynamics
 category:
+  - Group Meeting
   - Research
+layout: Slide
 tag:
   - Computer Graphics
   - Physics
-layout: Slide
+title: Physics-based Dynamics
+typora-root-url: ../../../.vuepress/public
 ---
 
 @slidestart
@@ -21,7 +23,7 @@ layout: Slide
 - implemented Projective Dynamics (PD) using Conjugate Gradient (CG) solver
 - got unstable results on spherical shell
 
-![Demo](https://cdn.liblaf.me/img/2023/05/29/2023-05-29T221715.png)
+![Demo](/img/2023/2023-05-29T221715Z.png)
 
 ---
 

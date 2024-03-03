@@ -1,9 +1,11 @@
 ---
-title: "How to Get the Field Name of members in struct"
 category:
-  - "C/C++"
+  - Research
 tag:
-  - "LLVM"
+  - C/C++
+  - LLVM
+title: How to Get the Field Name of members in struct
+typora-root-url: ../../../.vuepress/public
 ---
 
 ## What is Debug Info

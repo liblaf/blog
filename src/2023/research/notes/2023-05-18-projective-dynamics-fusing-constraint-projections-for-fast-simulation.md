@@ -1,11 +1,12 @@
 ---
-title: "Projective Dynamics: Fusing Constraint Projections for Fast Simulation"
 category:
   - Reading Notes
   - Research
 tag:
-  - Projective Dynamics
   - Physics
+  - Projective Dynamics
+title: "Projective Dynamics: Fusing Constraint Projections for Fast Simulation"
+typora-root-url: ../../../.vuepress/public
 ---
 
 ## Formula

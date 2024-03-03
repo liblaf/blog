@@ -1,10 +1,11 @@
 ---
-title: "Bomb Lab: string length"
 category:
-  - "Course Work"
+  - Course Work
 tag:
-  - "Computer Organization and Architecture"
-  - "Bomb Lab"
+  - Bomb Lab
+  - Computer Organization and Architecture
+title: "Bomb Lab: string length"
+typora-root-url: ../../../../.vuepress/public
 ---
 
 ## Assembly

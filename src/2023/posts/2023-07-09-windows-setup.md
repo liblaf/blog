@@ -1,10 +1,11 @@
 ---
-title: Windows Setup (XPS 9320)
 category:
-  - Windows
+  - Posts
 tag:
   - Dell
   - XPS 9320
+title: Windows Setup (XPS 9320)
+typora-root-url: ../../.vuepress/public
 ---
 
 ::: info

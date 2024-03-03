@@ -1,10 +1,11 @@
 ---
-title: Face Transfer with Multilinear Models
 category:
   - Reading Notes
   - Research
 tag:
   - Face Model
+title: Face Transfer with Multilinear Models
+typora-root-url: ../../../.vuepress/public
 ---
 
 - <https://dl.acm.org/doi/abs/10.1145/1185657.1185864>

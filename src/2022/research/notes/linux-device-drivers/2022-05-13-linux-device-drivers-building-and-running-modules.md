@@ -1,12 +1,14 @@
 ---
-title: "Linux Device Drivers | Building and Running Modules"
 category:
-  - "Linux"
-  - "C/C++"
-tag:
-  - "Linux Kernel"
-  - "Linux Device Drivers"
+  - Research
 isOriginal: false
+tag:
+  - C/C++
+  - Linux
+  - Linux Device Drivers
+  - Linux Kernel
+title: Linux Device Drivers | Building and Running Modules
+typora-root-url: ../../../../.vuepress/public
 ---
 
 ## Utilities

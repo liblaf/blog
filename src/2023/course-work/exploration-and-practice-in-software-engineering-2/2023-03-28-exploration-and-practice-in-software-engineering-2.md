@@ -1,13 +1,13 @@
 ---
-title: Exploration and Practice in Software Engineering (2)
-layout: Slide
 category:
   - Course Work
-tag:
-  - Exploration and Practice in Software Engineering (2)
+layout: Slide
 reveal:
   width: 1440
-#   height: 1080
+tag:
+  - Exploration and Practice in Software Engineering (2)
+title: Exploration and Practice in Software Engineering (2)
+typora-root-url: ../../../.vuepress/public
 ---
 
 @slidestart

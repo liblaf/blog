@@ -1,11 +1,12 @@
 ---
-title: "Phace: Physics-based Face Modeling and Animation"
 category:
   - Reading Notes
   - Research
 tag:
   - Face Model
   - Physics
+title: "Phace: Physics-based Face Modeling and Animation"
+typora-root-url: ../../../.vuepress/public
 ---
 
 ## 1. Introduction
@@ -18,9 +19,9 @@ tag:
 
 ### Overview
 
-![Schematic workflow of our method.](https://cdn.liblaf.me/img/2023/02/24/2023-02-24T051425.png)
+![Schematic workflow of our method.](/img/2023/2023-02-24T051425Z.png)
 
-![Our template model consists of a volumetric representation of the tissue and bones (a), and a surface blendshape basis to represent the expression space (d). Muscles are embedded into a non-conforming tetrahedral mesh discretization (b). We explicitly model jaw kinematics with a 5 DoF joint (c) and utilize low-resolution geometry proxies for faster collision detection for the teeth region (e). Dynamic skin sliding is supported by introducing both sliding (green) and fixed (red) constraints for bone-tissue connections (f).](https://cdn.liblaf.me/img/2023/02/24/2023-02-24T051500.png)
+![Our template model consists of a volumetric representation of the tissue and bones (a), and a surface blendshape basis to represent the expression space (d). Muscles are embedded into a non-conforming tetrahedral mesh discretization (b). We explicitly model jaw kinematics with a 5 DoF joint (c) and utilize low-resolution geometry proxies for faster collision detection for the teeth region (e). Dynamic skin sliding is supported by introducing both sliding (green) and fixed (red) constraints for bone-tissue connections (f).](/img/2023/2023-02-24T051500Z.png)
 
 ## 3. Template Face Model
 

@@ -1,11 +1,13 @@
 ---
-title: Physics-based Face Reconstruction after Surgery
 category:
+  - Group Meeting
   - Research
+layout: Slide
 tag:
   - Computer Graphics
   - Physics
-layout: Slide
+title: Physics-based Face Reconstruction after Surgery
+typora-root-url: ../../../.vuepress/public
 ---
 
 @slidestart
@@ -72,15 +74,15 @@ layout: Slide
 
 - **inner:** skeleton, **exterior:** face
 
-| <img  alt="Deer" src="https://cdn.liblaf.me/img/2023/05/29/2023-05-29T221611.gif" style="max-height: 400px"/> | <img alt="Shperical Shell" src="https://cdn.liblaf.me/img/2023/05/29/2023-05-29T221651.gif" style="max-height: 400px" /> |
-| :-----------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
+| <img  alt="Deer" src="/img/2023/2023-05-29T221611Z.gif" style="max-height: 400px"/> | <img alt="Shperical Shell" src="/img/2023/2023-05-29T221651Z.gif" style="max-height: 400px" /> |
+| :---------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
 
 --
 
 ### Demo - Spherical Shell
 
-| ![Initial](https://cdn.liblaf.me/img/2023/05/29/2023-05-29T221704.png) | ![Final](https://cdn.liblaf.me/img/2023/05/29/2023-05-29T221715.png) |
-| :--------------------------------------------------------------------: | :------------------------------------------------------------------: |
+| ![Initial](/img/2023/2023-05-29T221704Z.png) | ![Final](/img/2023/2023-05-29T221715Z.png) |
+| :------------------------------------------: | :----------------------------------------: |
 
 ---
 

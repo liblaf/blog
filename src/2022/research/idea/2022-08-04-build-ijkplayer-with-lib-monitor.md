@@ -1,11 +1,13 @@
 ---
-title: "Build ijkplayer with lib-monitor"
 category:
-  - "Android"
+  - Research
 tag:
-  - "ijkplayer"
-  - "NDK"
-  - "Clang"
+  - Android
+  - Clang
+  - NDK
+  - ijkplayer
+title: Build ijkplayer with lib-monitor
+typora-root-url: ../../../.vuepress/public
 ---
 
 ## Environment Setup

@@ -1,10 +1,11 @@
 ---
-title: Automatic Rigging and Animation of 3D Characters
 category:
   - Reading Notes
   - Research
 tag:
   - Body Model
+title: Automatic Rigging and Animation of 3D Characters
+typora-root-url: ../../../.vuepress/public
 ---
 
 ## TL;DR

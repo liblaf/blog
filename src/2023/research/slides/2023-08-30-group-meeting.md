@@ -1,11 +1,13 @@
 ---
-title: 组会 2023-08-30
 category:
+  - Group Meeting
   - Research
+layout: Slide
 tag:
   - Computer Graphics
   - Physics
-layout: Slide
+title: 组会 2023-08-30
+typora-root-url: ../../../.vuepress/public
 ---
 
 @slidestart
@@ -64,13 +66,13 @@ layout: Slide
 
 <div class="columns">
   <video autoplay controls loop muted>
-    <source src="https://cdn.liblaf.me/img/2023/08/31/2023-08-31T172847.mp4" />
+    <source src="/img/2023/2023-08-31T172847Z.mp4" />
   </video>
   <video autoplay controls loop muted>
-    <source src="https://cdn.liblaf.me/img/2023/08/31/2023-08-31T173152.mp4" />
+    <source src="/img/2023/2023-08-31T173152Z.mp4" />
   </video>
   <video autoplay controls loop muted>
-    <source src="https://cdn.liblaf.me/img/2023/08/31/2023-08-31T173346.mp4" />
+    <source src="/img/2023/2023-08-31T173346Z.mp4" />
   </video>
 </div>
 

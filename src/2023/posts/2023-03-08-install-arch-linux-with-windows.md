@@ -1,11 +1,12 @@
 ---
-title: Install Arch Linux with Windows
 category:
-  - Dev Env
-  - Linux
-  - Windows
+  - Posts
 tag:
   - Arch Linux
+  - Linux
+  - Windows
+title: Install Arch Linux with Windows
+typora-root-url: ../../.vuepress/public
 ---
 
 ## BIOS Setup
@@ -159,9 +160,9 @@ root@archiso ~ # shutdown now
 
 ### Partitioning
 
-![Before Partitioning](https://cdn.liblaf.me/img/2023/03/08/2023-03-08T062206.png)
+![Before Partitioning](/img/2023/2023-03-08T062206Z.png)
 
-![After Partitioning](https://cdn.liblaf.me/img/2023/03/08/2023-03-08T062232.png)
+![After Partitioning](/img/2023/2023-03-08T062232Z.png)
 
 ## Install Arch Linux
 

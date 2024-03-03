@@ -1,10 +1,11 @@
 ---
-title: "exp2: MPI Allreduce"
 category:
-  - "Course Work"
+  - Course Work
 tag:
-  - "Introduction to High Performance Computing"
-  - "MPI"
+  - Introduction to High Performance Computing
+  - MPI
+title: "exp2: MPI Allreduce"
+typora-root-url: ../../../.vuepress/public
 ---
 
 ## Ring Allreduce 算法

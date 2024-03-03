@@ -1,11 +1,12 @@
 ---
-title: "Windows Setup"
 category:
-  - "Dev Env"
-  - "Windows"
+  - Posts
 tag:
-  - "Dell"
-  - "IRST"
+  - Dell
+  - IRST
+  - Windows
+title: Windows Setup
+typora-root-url: ../../.vuepress/public
 ---
 
 ::: info

@@ -1,12 +1,13 @@
 ---
-title: "How to Build Linux Kernel"
 category:
-  - "Linux"
-  - "C/C++"
+  - Research
 tag:
-  - "Linux Kernel"
-  - "LLVM"
-  - "Clang"
+  - C/C++
+  - Clang
+  - LLVM
+  - Linux Kernel
+title: How to Build Linux Kernel
+typora-root-url: ../../../.vuepress/public
 ---
 
 |         Environment          |                                                                         Version                                                                          |

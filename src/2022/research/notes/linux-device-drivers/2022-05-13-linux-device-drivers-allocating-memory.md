@@ -1,12 +1,14 @@
 ---
-title: "Linux Device Drivers | Allocating Memory"
 category:
-  - "Linux"
-  - "C/C++"
-tag:
-  - "Linux Kernel"
-  - "Linux Device Drivers"
+  - Research
 isOriginal: false
+tag:
+  - C/C++
+  - Linux
+  - Linux Device Drivers
+  - Linux Kernel
+title: Linux Device Drivers | Allocating Memory
+typora-root-url: ../../../../.vuepress/public
 ---
 
 ###### <linux/slab.h>

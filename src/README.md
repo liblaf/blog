@@ -1,37 +1,36 @@
 ---
-layout: BlogHome
 home: true
-
-title: Home
 icon: material-symbols:home
-
-tagline: Life blooms like a flower
+layout: BlogHome
 projects:
-  - name: AList
+  - icon: https://alist.nn.ci/logo.svg
     link: https://alist.liblaf.me
-    icon: https://alist.nn.ci/logo.svg
-  - name: Assets
+    name: AList
+  - icon: material-symbols:web-asset
     link: https://assets.liblaf.me
-    icon: material-symbols:web-asset
-  - name: Awesome
-    desc: My Awesome Lists
-    link: https://awesome.liblaf.me
+    name: Assets
+  - desc: My Awesome Lists
     icon: logos:awesome
-  - name: ChatGPT
+    link: https://awesome.liblaf.me
+    name: Awesome
+  - icon: arcticons:openai-chatgpt
     link: https://c.liblaf.me
-    icon: arcticons:openai-chatgpt
-  - name: GFW
-    desc: the Great Firewall
-    link: https://github.com/liblaf/gfw-web
+    name: ChatGPT
+  - desc: the Great Firewall
     icon: mdi:firewall
-  - name: Jellyfin
+    link: https://github.com/liblaf/gfw-web
+    name: GFW
+  - icon: openmoji:jellyfin
     link: https://jellyfin.liblaf.me
-    icon: openmoji:jellyfin
-  - name: Resume
+    name: Jellyfin
+  - icon: mdi:resume
     link: https://resume.liblaf.me
-    icon: mdi:resume
-  - name: Status
-    desc: Status Page
-    link: https://status.liblaf.me
+    name: Resume
+  - desc: Status Page
     icon: lets-icons:status
+    link: https://status.liblaf.me
+    name: Status
+tagline: Life blooms like a flower
+title: Home
+typora-root-url: .vuepress/public
 ---

@@ -1,10 +1,10 @@
 ---
-title: How To Use More Than 10 Columns in Matrix
 category:
-  - LaTeX
-  - Quick Solution
+  - Posts
 tag:
-  - Matrix
+  - LaTeX
+title: How To Use More Than 10 Columns in Matrix
+typora-root-url: ../../.vuepress/public
 ---
 
 ```latex

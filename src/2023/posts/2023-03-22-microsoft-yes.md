@@ -1,11 +1,12 @@
 ---
-title: Microsoft YES
 category:
-  - Causeries
+  - Posts
 tag:
   - ChatGPT
   - Copilot
   - Microsoft
+title: Microsoft YES
+typora-root-url: ../../.vuepress/public
 ---
 
 巨硬 赢麻了:
