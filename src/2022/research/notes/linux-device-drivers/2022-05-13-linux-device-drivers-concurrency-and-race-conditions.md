@@ -8,7 +8,6 @@ tag:
   - Linux Device Drivers
   - Linux Kernel
 title: Linux Device Drivers | Concurrency and Race Conditions
-typora-root-url: ../../../../.vuepress/public
 ---
 
 ###### <asm/semaphore.h> (not found)

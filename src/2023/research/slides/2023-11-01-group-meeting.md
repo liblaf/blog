@@ -6,7 +6,6 @@ layout: Slide
 tag:
   - Computer Graphics
 title: 组会 2023-11-01
-typora-root-url: ../../../.vuepress/public
 ---
 
 @slidestart

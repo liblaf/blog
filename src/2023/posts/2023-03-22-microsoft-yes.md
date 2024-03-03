@@ -6,7 +6,6 @@ tag:
   - Copilot
   - Microsoft
 title: Microsoft YES
-typora-root-url: ../../.vuepress/public
 ---
 
 巨硬 赢麻了:

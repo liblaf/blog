@@ -5,7 +5,6 @@ tag:
   - CUDA
   - Introduction to High Performance Computing
 title: "exp7: CUDA 优化 (global memory, shared memory)"
-typora-root-url: ../../../.vuepress/public
 ---
 
 ## 分析 `test_gmem.cu` 的性能变化来源
@@ -17,7 +16,7 @@ __global__ void stride_copy(float *dst, float *src) {
 }
 ```
 
-![Global Memory](/img/2023/2023-02-24T050910Z.png)
+![Global Memory](https://cdn.liblaf.me/img/2023/2023-02-24T050910Z.png)
 
 ### 性能变化的主要来源是 GPU 的哪种机制引起的？
 
@@ -52,7 +51,7 @@ __global__ void test_shmem() {
 }
 ```
 
-![Shared Memory](/img/2023/2023-02-24T050933Z.png)
+![Shared Memory](https://cdn.liblaf.me/img/2023/2023-02-24T050933Z.png)
 
 ### 固定 `BITWIDTH` 时, 程序的性能变化来源于哪种硬件机制？
 

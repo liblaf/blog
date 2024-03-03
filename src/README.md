@@ -32,5 +32,4 @@ projects:
     name: Status
 tagline: Life blooms like a flower
 title: Home
-typora-root-url: .vuepress/public
 ---

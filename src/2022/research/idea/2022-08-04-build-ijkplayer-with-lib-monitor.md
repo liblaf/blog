@@ -7,7 +7,6 @@ tag:
   - NDK
   - ijkplayer
 title: Build ijkplayer with lib-monitor
-typora-root-url: ../../../.vuepress/public
 ---
 
 ## Environment Setup

@@ -7,7 +7,6 @@ tag:
   - Computer Graphics
   - Physics
 title: 组会 2023-10-11
-typora-root-url: ../../../.vuepress/public
 ---
 
 @slidestart

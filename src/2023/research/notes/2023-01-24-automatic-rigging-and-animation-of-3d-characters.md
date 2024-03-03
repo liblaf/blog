@@ -5,7 +5,6 @@ category:
 tag:
   - Body Model
 title: Automatic Rigging and Animation of 3D Characters
-typora-root-url: ../../../.vuepress/public
 ---
 
 ## TL;DR

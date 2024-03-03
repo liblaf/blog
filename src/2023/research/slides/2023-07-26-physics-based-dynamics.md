@@ -7,7 +7,6 @@ tag:
   - Computer Graphics
   - Physics
 title: Physics-based Dynamics
-typora-root-url: ../../../.vuepress/public
 ---
 
 @slidestart
@@ -23,7 +22,7 @@ typora-root-url: ../../../.vuepress/public
 - implemented Projective Dynamics (PD) using Conjugate Gradient (CG) solver
 - got unstable results on spherical shell
 
-![Demo](/img/2023/2023-05-29T221715Z.png)
+![Demo](https://cdn.liblaf.me/img/2023/2023-05-29T221715Z.png)
 
 ---
 

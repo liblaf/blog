@@ -7,7 +7,6 @@ tag:
   - Computer Graphics
   - Physics
 title: 组会 2023-08-30
-typora-root-url: ../../../.vuepress/public
 ---
 
 @slidestart
@@ -66,13 +65,13 @@ typora-root-url: ../../../.vuepress/public
 
 <div class="columns">
   <video autoplay controls loop muted>
-    <source src="/img/2023/2023-08-31T172847Z.mp4" />
+    <source src="https://cdn.liblaf.me/img/2023/2023-08-31T172847Z.mp4" />
   </video>
   <video autoplay controls loop muted>
-    <source src="/img/2023/2023-08-31T173152Z.mp4" />
+    <source src="https://cdn.liblaf.me/img/2023/2023-08-31T173152Z.mp4" />
   </video>
   <video autoplay controls loop muted>
-    <source src="/img/2023/2023-08-31T173346Z.mp4" />
+    <source src="https://cdn.liblaf.me/img/2023/2023-08-31T173346Z.mp4" />
   </video>
 </div>
 

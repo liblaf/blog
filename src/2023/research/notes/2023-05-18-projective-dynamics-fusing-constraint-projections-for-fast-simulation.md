@@ -6,7 +6,6 @@ tag:
   - Physics
   - Projective Dynamics
 title: "Projective Dynamics: Fusing Constraint Projections for Fast Simulation"
-typora-root-url: ../../../.vuepress/public
 ---
 
 ## Formula

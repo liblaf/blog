@@ -5,7 +5,6 @@ tag:
   - "From the Silver Screen: English Films Appreciation"
   - Notting Hill
 title: Class 2 Assignments --- Notting Hill
-typora-root-url: ../../../.vuepress/public
 ---
 
 ## Vocabulary

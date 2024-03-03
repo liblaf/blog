@@ -8,7 +8,6 @@ tag:
   - Linux Device Drivers
   - Linux Kernel
 title: Linux Device Drivers | Allocating Memory
-typora-root-url: ../../../../.vuepress/public
 ---
 
 ###### <linux/slab.h>

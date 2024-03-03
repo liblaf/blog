@@ -7,7 +7,6 @@ tag:
   - Computer Graphics
   - Physics
 title: 组会 2023-08-23
-typora-root-url: ../../../.vuepress/public
 ---
 
 @slidestart
@@ -31,10 +30,10 @@ typora-root-url: ../../../.vuepress/public
 ### Bunny
 
 <div class="columns">
-  <img width="32%" height="24%" src="/img/2023/2023-08-23T151429Z.png" />
-  <img width="32%" height="24%" src="/img/2023/2023-08-23T154153Z.png" />
+  <img width="32%" height="24%" src="https://cdn.liblaf.me/img/2023/2023-08-23T151429Z.png" />
+  <img width="32%" height="24%" src="https://cdn.liblaf.me/img/2023/2023-08-23T154153Z.png" />
   <video width="32%" height="24%" autoplay controls loop muted>
-    <source src="/img/2023/2023-08-23T151048Z.mp4" />
+    <source src="https://cdn.liblaf.me/img/2023/2023-08-23T151048Z.mp4" />
   </video>
 </div>
 
@@ -43,10 +42,10 @@ typora-root-url: ../../../.vuepress/public
 ### Template Head
 
 <div class="columns">
-  <img width="32%" height="24%" src="/img/2023/2023-08-23T154715Z.png" />
-  <img width="32%" height="24%" src="/img/2023/2023-08-23T154734Z.png" />
+  <img width="32%" height="24%" src="https://cdn.liblaf.me/img/2023/2023-08-23T154715Z.png" />
+  <img width="32%" height="24%" src="https://cdn.liblaf.me/img/2023/2023-08-23T154734Z.png" />
   <video width="32%" height="24%" autoplay controls loop muted>
-    <source src="/img/2023/2023-08-23T154651Z.mp4" />
+    <source src="https://cdn.liblaf.me/img/2023/2023-08-23T154651Z.mp4" />
   </video>
 </div>
 

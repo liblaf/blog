@@ -5,7 +5,6 @@ layout: Slide
 tag:
   - Exploration and Practice in Software Engineering (2)
 title: AlphaZero 大作业展示
-typora-root-url: ../../../.vuepress/public
 ---
 
 @slidestart

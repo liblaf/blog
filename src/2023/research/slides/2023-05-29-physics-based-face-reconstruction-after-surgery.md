@@ -7,7 +7,6 @@ tag:
   - Computer Graphics
   - Physics
 title: Physics-based Face Reconstruction after Surgery
-typora-root-url: ../../../.vuepress/public
 ---
 
 @slidestart
@@ -74,15 +73,15 @@ typora-root-url: ../../../.vuepress/public
 
 - **inner:** skeleton, **exterior:** face
 
-| <img  alt="Deer" src="/img/2023/2023-05-29T221611Z.gif" style="max-height: 400px"/> | <img alt="Shperical Shell" src="/img/2023/2023-05-29T221651Z.gif" style="max-height: 400px" /> |
-| :---------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
+| <img  alt="Deer" src="https://cdn.liblaf.me/img/2023/2023-05-29T221611Z.gif" style="max-height: 400px"/> | <img alt="Shperical Shell" src="https://cdn.liblaf.me/img/2023/2023-05-29T221651Z.gif" style="max-height: 400px" /> |
+| :------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
 
 --
 
 ### Demo - Spherical Shell
 
-| ![Initial](/img/2023/2023-05-29T221704Z.png) | ![Final](/img/2023/2023-05-29T221715Z.png) |
-| :------------------------------------------: | :----------------------------------------: |
+| ![Initial](https://cdn.liblaf.me/img/2023/2023-05-29T221704Z.png) | ![Final](https://cdn.liblaf.me/img/2023/2023-05-29T221715Z.png) |
+| :---------------------------------------------------------------: | :-------------------------------------------------------------: |
 
 ---
 

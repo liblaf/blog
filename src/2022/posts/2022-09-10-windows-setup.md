@@ -6,7 +6,6 @@ tag:
   - IRST
   - Windows
 title: Windows Setup
-typora-root-url: ../../.vuepress/public
 ---
 
 ::: info

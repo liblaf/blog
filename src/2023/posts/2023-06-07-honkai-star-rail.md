@@ -4,7 +4,6 @@ category:
 tag:
   - "Honkai: Star Rail"
 title: "Honkai: Star Rail"
-typora-root-url: ../../.vuepress/public
 ---
 
 > 有机生命的情感就像潮汐, 是我没看好月亮的方向. --- 螺丝咕姆

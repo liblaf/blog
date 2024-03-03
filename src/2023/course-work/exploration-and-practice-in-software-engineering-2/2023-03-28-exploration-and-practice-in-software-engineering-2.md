@@ -7,7 +7,6 @@ reveal:
 tag:
   - Exploration and Practice in Software Engineering (2)
 title: Exploration and Practice in Software Engineering (2)
-typora-root-url: ../../../.vuepress/public
 ---
 
 @slidestart

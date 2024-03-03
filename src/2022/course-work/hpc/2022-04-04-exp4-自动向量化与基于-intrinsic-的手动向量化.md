@@ -5,7 +5,6 @@ tag:
   - Introduction to High Performance Computing
   - intrinsic
 title: "exp4: 自动向量化与基于 intrinsic 的手动向量化"
-typora-root-url: ../../../.vuepress/public
 ---
 
 ## Performance

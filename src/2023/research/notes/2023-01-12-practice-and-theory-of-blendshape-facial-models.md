@@ -5,7 +5,6 @@ category:
 tag:
   - Face Model
 title: Practice and Theory of Blendshape Facial Models
-typora-root-url: ../../../.vuepress/public
 ---
 
 [[PDF] scribblethink.org](http://www.scribblethink.org/Work/Pdfs/blendshapes_MAIN.pdf)

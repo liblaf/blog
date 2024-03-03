@@ -4,7 +4,6 @@ category:
 tag:
   - Quantum Mechanics
 title: "Chap 1: 波函数与 Schrodinger 方程"
-typora-root-url: ../../../.vuepress/public
 ---
 
 ## 1.1 波函数的统计诠释

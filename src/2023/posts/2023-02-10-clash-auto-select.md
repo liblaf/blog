@@ -4,7 +4,6 @@ category:
 tag:
   - Clash
 title: Clash Auto Select
-typora-root-url: ../../.vuepress/public
 ---
 
 ## Edit Parsers

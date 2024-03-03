@@ -8,7 +8,6 @@ tag:
   - Linux Device Drivers
   - Linux Kernel
 title: Linux Device Drivers | Building and Running Modules
-typora-root-url: ../../../../.vuepress/public
 ---
 
 ## Utilities

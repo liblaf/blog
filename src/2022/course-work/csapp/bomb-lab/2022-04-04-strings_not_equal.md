@@ -5,7 +5,6 @@ tag:
   - Bomb Lab
   - Computer Organization and Architecture
 title: "Bomb Lab: strings not equal"
-typora-root-url: ../../../../.vuepress/public
 ---
 
 ```assembly

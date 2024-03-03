@@ -5,7 +5,6 @@ tag:
   - Introduction to High Performance Computing
   - MPI
 title: "PA1: 奇偶排序（odd_even_sort）"
-typora-root-url: ../../../.vuepress/public
 ---
 
 ## Performance

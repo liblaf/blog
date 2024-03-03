@@ -5,7 +5,6 @@ category:
 tag:
   - Body Model
 title: "SCAPE: Shape Completion and Animation of People"
-typora-root-url: ../../../.vuepress/public
 ---
 
 ## TL;DR

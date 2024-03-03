@@ -5,7 +5,6 @@ category:
 tag:
   - Face Model
 title: A Morphable Model For The Synthesis Of 3D Faces
-typora-root-url: ../../../.vuepress/public
 ---
 
 [[PDF] acm.org](https://dl.acm.org/doi/pdf/10.1145/311535.311556)

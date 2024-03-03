@@ -7,7 +7,6 @@ tag:
   - Ubuntu
   - Ubuntu 22.04
 title: Run Tencent Meeting on Ubuntu 22.04
-typora-root-url: ../../.vuepress/public
 ---
 
 ## Environment

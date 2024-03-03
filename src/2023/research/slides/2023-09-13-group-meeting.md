@@ -7,7 +7,6 @@ tag:
   - Computer Graphics
   - Physics
 title: 组会 2023-09-13
-typora-root-url: ../../../.vuepress/public
 ---
 
 @slidestart
@@ -33,27 +32,27 @@ typora-root-url: ../../../.vuepress/public
 
 <div class="columns">
   <figure>
-    <img src="/img/2023/2023-09-14T165806Z.png" />
+    <img src="https://cdn.liblaf.me/img/2023/2023-09-14T165806Z.png" />
     <figcaption> Raw </figcaption>
   </figure>
   <figure>
-    <img src="/img/2023/2023-09-14T152809Z.png" />
+    <img src="https://cdn.liblaf.me/img/2023/2023-09-14T152809Z.png" />
     <figcaption> Threshold </figcaption>
   </figure>
   <figure>
-    <img src="/img/2023/2023-09-14T152925Z.png" />
+    <img src="https://cdn.liblaf.me/img/2023/2023-09-14T152925Z.png" />
     <figcaption> Opening (Erosion + Dilation) </figcaption>
   </figure>
   <figure>
-    <img src="/img/2023/2023-09-14T153003Z.png" />
+    <img src="https://cdn.liblaf.me/img/2023/2023-09-14T153003Z.png" />
     <figcaption> Remove Background </figcaption>
   </figure>
   <figure>
-    <img src="/img/2023/2023-09-14T153106Z.png" />
+    <img src="https://cdn.liblaf.me/img/2023/2023-09-14T153106Z.png" />
     <figcaption> Remove Marginal Components </figcaption>
   </figure>
   <figure>
-    <img src="/img/2023/2023-09-14T153133Z.png" />
+    <img src="https://cdn.liblaf.me/img/2023/2023-09-14T153133Z.png" />
     <figcaption> Edge Detection </figcaption>
   </figure>
 </div>

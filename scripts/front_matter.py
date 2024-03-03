@@ -1,5 +1,4 @@
 import glob
-import os
 import pathlib
 import subprocess
 
@@ -22,7 +21,7 @@ class YAMLHandler(frontmatter.YAMLHandler):
 def get_list(metadata: dict[str, object], key: str) -> list[str]:
     value = metadata.get(key, [])
     if isinstance(value, str):
-        value = [value]
+        return [value]
     return value
 
 
@@ -32,8 +31,6 @@ files: list[pathlib.Path] = [
 for file in files:
     file = pathlib.Path(file)
     post = frontmatter.load(file)
-    root = pathlib.Path("src/.vuepress/public")
-    post["typora-root-url"] = os.path.relpath(root, file.parent)
 
     category = set(get_list(post, "category"))
     if "posts" in file.parts:
@@ -53,10 +50,6 @@ for file in files:
     print(file, category, tag)
     if category:
         post["category"] = sorted(category)
-    else:
-        del post["category"]
     if tag:
         post["tag"] = sorted(tag)
-    else:
-        del post["tag"]
     frontmatter.dump(post, file, handler=YAMLHandler())

@@ -7,7 +7,6 @@ tag:
   - Computer Graphics
   - Physics
 title: 组会 2023-08-09
-typora-root-url: ../../../.vuepress/public
 ---
 
 @slidestart
@@ -33,7 +32,7 @@ typora-root-url: ../../../.vuepress/public
 
 <br>
 
-<img alt="Hard Constraint" height="500" src="/img/2023/2023-08-09T162255Z.gif" />
+<img alt="Hard Constraint" height="500" src="https://cdn.liblaf.me/img/2023/2023-08-09T162255Z.gif" />
 
 --
 
@@ -42,8 +41,8 @@ typora-root-url: ../../../.vuepress/public
 - 记内球壳某一点位置为 `x`, 希望将其约束在 `t`
 - 用弹簧连接 `x`, `t`
 
-| ![Frame-0](/img/2023/2023-08-09T163128Z.png) | ![Frame-1](/img/2023/2023-08-09T163349Z.png) | ![Video](/img/2023/2023-08-09T163433Z.gif) |
-| :------------------------------------------: | :------------------------------------------: | :----------------------------------------: |
+| ![Frame-0](https://cdn.liblaf.me/img/2023/2023-08-09T163128Z.png) | ![Frame-1](https://cdn.liblaf.me/img/2023/2023-08-09T163349Z.png) | ![Video](https://cdn.liblaf.me/img/2023/2023-08-09T163433Z.gif) |
+| :---------------------------------------------------------------: | :---------------------------------------------------------------: | :-------------------------------------------------------------: |
 
 --
 

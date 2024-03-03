@@ -5,7 +5,6 @@ tag:
   - Introduction to High Performance Computing
   - MPI
 title: "exp2: MPI Allreduce"
-typora-root-url: ../../../.vuepress/public
 ---
 
 ## Ring Allreduce 算法

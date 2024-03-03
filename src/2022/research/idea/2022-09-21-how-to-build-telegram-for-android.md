@@ -6,7 +6,6 @@ tag:
   - NDK
   - Telegram
 title: How to Build Telegram for Android
-typora-root-url: ../../../.vuepress/public
 ---
 
 ## TL;DR

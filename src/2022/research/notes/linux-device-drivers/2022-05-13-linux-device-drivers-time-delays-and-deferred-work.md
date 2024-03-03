@@ -8,7 +8,6 @@ tag:
   - Linux Device Drivers
   - Linux Kernel
 title: Linux Device Drivers | Time, Delays, and Deferred Work
-typora-root-url: ../../../../.vuepress/public
 ---
 
 ## Timekeeping

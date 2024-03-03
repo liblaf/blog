@@ -9,7 +9,6 @@ tag:
   - Linux Device Drivers
   - Linux Kernel
 title: Linux Device Drivers | Char Drivers | File Operations
-typora-root-url: ../../../../.vuepress/public
 ---
 
 ```c

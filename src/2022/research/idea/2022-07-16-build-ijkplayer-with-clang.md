@@ -7,7 +7,6 @@ tag:
   - NDK
   - ijkplayer
 title: Build ijkplayer with Clang
-typora-root-url: ../../../.vuepress/public
 ---
 
 ## How to Build ijkplayer

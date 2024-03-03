@@ -1,7 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import { getDirname, path } from "vuepress/utils";
-import theme from "./theme.js";
 import frontmatter from "./plugins/frontmatter/index.js";
+import theme from "./theme.js";
 
 const __dirname: string = getDirname(import.meta.url);
 

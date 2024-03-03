@@ -5,7 +5,6 @@ tag:
   - Bomb Lab
   - Computer Organization and Architecture
 title: "Bomb Lab: read six numbers"
-typora-root-url: ../../../../.vuepress/public
 ---
 
 ## Assembly
