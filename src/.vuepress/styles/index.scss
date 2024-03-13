@@ -1,4 +1,11 @@
 .slides {
+  .flex {
+    display: flex;
+    > div {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  }
   h1,
   h2,
   h3,
