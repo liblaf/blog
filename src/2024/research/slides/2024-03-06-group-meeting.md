@@ -45,9 +45,13 @@ title: 2024-03-06 组会
 - (大约 2010 年后) 工作的贡献在于模型的改进, 如: 滑动区域, 模型切割, 等
 
 [^1]: Ma, Lei, Deqiang Xiao, Daeseung Kim, Chunfeng Lian, Tianshu Kuang, Qin Liu, Hannah Deng, Erkun Yang, Michael AK Liebschner, and Jaime Gateno. “Simulation of Postoperative Facial Appearances via Geometric Deep Learning for Efficient Orthognathic Surgical Planning.” IEEE Transactions on Medical Imaging 42, no. 2 (2022): 336–45.
+
 [^2]: San Vicente, G., C. Buchart, D. Borro, and J. T. Celigüeta. “Maxillofacial Surgery Simulation Using a Mass-Spring Model Derived from Continuum and the Scaled Displacement Method.” International Journal of Computer Assisted Radiology and Surgery 4, no. 1 (January 2009): 89–98. https://doi.org/10.1007/s11548-008-0271-0.
+
 [^3]: Cotin, Stéphane, Hervé Delingette, and Nicholas Ayache. “A Hybrid Elastic Model Allowing Real-Time Cutting, Deformations and Force-Feedback for Surgery Training and Simulation.” Visual Computer 16, no. 8 (2000): 437–52.
+
 [^4]: Koch, Rolf M., Markus H. Gross, Friedrich R. Carls, Daniel F. Von Büren, George Fankhauser, and Yoav I. H. Parish. “Simulating Facial Surgery Using Finite Element Models.” In Proceedings of the 23rd Annual Conference on Computer Graphics and Interactive Techniques, 421–28. ACM, 1996. https://doi.org/10.1145/237170.237281.
+
 [^5]: Pan, Binbin, Guangming Zhang, James J. Xia, Peng Yuan, Horace HS Ip, Qizhen He, Philip KM Lee, Ben Chow, and Xiaobo Zhou. “Prediction of Soft Tissue Deformations after CMF Surgery with Incremental Kernel Ridge Regression.” Computers in Biology and Medicine 75 (2016): 1–9.
 
 --
