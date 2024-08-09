@@ -31,4 +31,5 @@ parsers:
 ## Reference
 
 [^1]: <https://docs.cfw.lbyczf.com/contents/parser.html> "配置文件预处理 | Clash for Windows"
+
 [^2]: <https://lancellc.gitbook.io/clash/clash-config-file/proxy-groups/auto> "Auto - Clash"
