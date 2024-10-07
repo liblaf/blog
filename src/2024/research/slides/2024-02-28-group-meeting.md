@@ -89,11 +89,17 @@ mesh-kit view register ~/Documents/data/targets/*/pre/register-skull/
   - [^7]\: probabilistic FEM
 
 [^1]: Zhang, Xiaoyan, Zhen Tang, Michael A. K. Liebschner, Daeseung Kim, Shunyao Shen, Chien-Ming Chang, Peng Yuan, et al. “An eFace-Template Method for Efficiently Generating Patient-Specific Anatomically-Detailed Facial Soft Tissue FE Models for Craniomaxillofacial Surgery Simulation.” Annals of Biomedical Engineering 44, no. 5 (May 2016): 1656–71. https://doi.org/10.1007/s10439-015-1480-7.
+
 [^2]: Zhang, Xiaoyan, Daeseung Kim, Shunyao Shen, Peng Yuan, Siting Liu, Zhen Tang, Guangming Zhang, et al. “An eFTD-VP Framework for Efficiently Generating Patient-Specific Anatomically Detailed Facial Soft Tissue FE Mesh for Craniomaxillofacial Surgery Simulation.” Biomechanics and Modeling in Mechanobiology 17, no. 2 (April 2018): 387–402. https://doi.org/10.1007/s10237-017-0967-6.
+
 [^3]: Kim, Daeseung, Dennis Chun‐Yu Ho, Huaming Mai, Xiaoyan Zhang, Steve G.F. Shen, Shunyao Shen, Peng Yuan, et al. “A Clinically Validated Prediction Method for Facial Soft‐tissue Changes Following Double‐jaw Surgery.” Medical Physics 44, no. 8 (August 2017): 4252–61. https://doi.org/10.1002/mp.12391.
+
 [^4]: Kim, Daeseung, Tianshu Kuang, Yriu L. Rodrigues, Jaime Gateno, Steve G. F. Shen, Xudong Wang, Han Deng, et al. “A New Approach of Predicting Facial Changes Following Orthognathic Surgery Using Realistic Lip Sliding Effect.” In Medical Image Computing and Computer Assisted Intervention – MICCAI 2019, edited by Dinggang Shen, Tianming Liu, Terry M. Peters, Lawrence H. Staib, Caroline Essert, Sean Zhou, Pew-Thian Yap, and Ali Khan, 11768:336–44. Lecture Notes in Computer Science. Cham: Springer International Publishing, 2019. https://doi.org/10.1007/978-3-030-32254-0_38.
+
 [^5]: San Vicente, G., C. Buchart, D. Borro, and J. T. Celigüeta. “Maxillofacial Surgery Simulation Using a Mass-Spring Model Derived from Continuum and the Scaled Displacement Method.” International Journal of Computer Assisted Radiology and Surgery 4, no. 1 (January 2009): 89–98. https://doi.org/10.1007/s11548-008-0271-0.
+
 [^6]: Kim, Hyungmin, Philipp Jürgens, Stefan Weber, Lutz-Peter Nolte, and Mauricio Reyes. “A New Soft-Tissue Simulation Strategy for Cranio-Maxillofacial Surgery Using Facial Muscle Template Model.” Progress in Biophysics and Molecular Biology 103, no. 2–3 (2010): 284–91.
+
 [^7]: Knoops, Paul GM, Alessandro Borghi, Federica Ruggiero, Giovanni Badiali, Alberto Bianchi, Claudio Marchetti, Naiara Rodriguez-Florez, Richard WF Breakey, Owase Jeelani, and David J. Dunaway. “A Novel Soft Tissue Prediction Methodology for Orthognathic Surgery Based on Probabilistic Finite Element Modelling.” PloS One 13, no. 5 (2018): e0197209.
 
 @slideend
