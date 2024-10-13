@@ -1,0 +1,41 @@
+Results of gitleaks linter (version 8.18.4)
+See documentation on https://megalinter.io/8.0.0/descriptors/repository_gitleaks/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /github/workspace
+Linter raw log:
+
+    ○
+    │╲
+    │ ○
+    ○ ░
+    ░    gitleaks
+
+Finding:     ...AAAAA4oAA4AAAAAHbQAAREDACTEDAAAAAAAAAAAAAAABmAAg...
+Secret:      REDACTED
+RuleID:      aws-access-token
+Entropy:     0.847585
+File:        assets/style-DUTcLSDi.css
+Line:        1
+Commit:      688ac289fb346ac17978f336e123995067eb7277
+Author:      renovate[bot]
+Email:       renovate[bot]@users.noreply.github.com
+Date:        2024-05-09T00:46:57Z
+Fingerprint: 688ac289fb346ac17978f336e123995067eb7277:assets/style-DUTcLSDi.css:aws-access-token:1
+
+Finding:     apiKey: "REDACTED"
+Secret:      REDACTED
+RuleID:      generic-api-key
+Entropy:     3.730338
+File:        docs/.vuepress/config.ts
+Line:        33
+Commit:      8a6c0093fa6d15076395cd859ba6b1a8365d4cd5
+Author:      Qin Li
+Email:       liblaf@outlook.com
+Date:        2023-02-24T05:36:48Z
+Fingerprint: 8a6c0093fa6d15076395cd859ba6b1a8365d4cd5:docs/.vuepress/config.ts:generic-api-key:33
+
+12:44AM INF 329 commits scanned.
+12:44AM INF scan completed in 7.03s
+12:44AM WRN leaks found: 2
+

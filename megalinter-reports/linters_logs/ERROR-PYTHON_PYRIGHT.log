@@ -1,0 +1,19 @@
+Results of pyright linter (version 1.1.376)
+See documentation on https://megalinter.io/8.0.0/descriptors/python_pyright/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /github/workspace
+Linter raw log:
+
+added 1 package, and audited 2 packages in 5s
+
+found 0 vulnerabilities
+scripts/front_matter.py
+  scripts/front_matter.py:5:8 - error: Import "frontmatter" could not be resolved (reportMissingImports)
+  scripts/front_matter.py:25:12 - error: Expression of type "object" is incompatible with return type "list[str]"
+    "object" is incompatible with "list[str]" (reportReturnType)
+2 errors, 0 warnings, 0 informations 
+WARNING: there is a new pyright version available (v1.1.376 -> v1.1.384).
+Please install the new version or set PYRIGHT_PYTHON_FORCE_VERSION to `latest`
+
+
