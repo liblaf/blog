@@ -1,0 +1,11 @@
+Results of grype linter (version 0.79.5)
+See documentation on https://megalinter.io/8.0.0/descriptors/repository_grype/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /github/workspace
+Linter raw log:
+NAME        INSTALLED  FIXED-IN  TYPE  VULNERABILITY        SEVERITY 
+braces      3.0.2      3.0.3     npm   GHSA-grv7-fg5c-xmjg  High      
+micromatch  4.0.5      4.0.8     npm   GHSA-952p-6rrq-rcjv  Medium
+discovered vulnerabilities at or above the severity threshold
+

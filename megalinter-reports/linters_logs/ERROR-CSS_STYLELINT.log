@@ -1,0 +1,13 @@
+Results of stylelint linter (version 16.8.2)
+See documentation on https://megalinter.io/8.0.0/descriptors/css_stylelint/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /github/workspace
+Linter raw log:
+
+src/.vuepress/styles/config.scss
+  1:1  ✖  Unexpected empty source  no-empty-source
+
+✖ 1 problem (1 error, 0 warnings)
+
+

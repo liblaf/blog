@@ -1,0 +1,76 @@
+Results of markdown-link-check linter (version 3.12.2)
+See documentation on https://megalinter.io/8.0.0/descriptors/markdown_markdown_link_check/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /github/workspace
+Linter raw log:
+(node:191) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+  ERROR: 4 dead links found in src/2022/course-work/hpc/2022-04-10-pa1-odd_even_sort.md !
+  [✖] http://liinwww.ira.uka.de/~thw/vl-hiroshima/slides-4.pdf → Status: 0
+  [✖] http://www.ira.uka.de → Status: 0
+  [✖] http://www.iti.fh-flensburg.de/lang/algorithmen/sortieren/networks/nulleinsen.htm → Status: 0
+  [✖] http://www.net.t-labs.tu-berlin.de/~stefan/netalg13-9-sort.pdf → Status: 500
+
+  ERROR: 1 dead links found in src/2022/course-work/hpc/2022-06-05-exp8-单机性能优化.md !
+  [✖] https://www.intel.com/content/www/us/en/develop/documentation/cpp-compiler-developer-guide-and-reference/top/compiler-reference/compiler-options/alphabetical-list-of-compiler-options.html → Status: 403
+
+  ERROR: 1 dead links found in src/2022/course-work/hpc/2022-06-05-pa3-全源最短路.md !
+  [✖] https://lab.cs.tsinghua.edu.cn/hpc/doc/exp/3.apsp/ → Status: 0
+
+  ERROR: 4 dead links found in src/2022/course-work/principal-and-application-of-database/2022-09-19-第1次实验.md !
+  [✖] https://github.com/liblaf/dotfiles/blob/main/ubuntu/.oh-my-zsh/custom/plugins/pkg/conda/install.sh → Status: 404
+  [✖] https://github.com/liblaf/dotfiles/blob/main/ubuntu/.condarc → Status: 404
+  [✖] https://github.com/liblaf/dotfiles/blob/main/ubuntu/.config/pip/pip.conf → Status: 404
+  [✖] https://github.com/liblaf/dotfiles/blob/main/ubuntu/.oh-my-zsh/custom/plugins/pkg/code/install.sh → Status: 404
+
+  ERROR: 3 dead links found in src/2022/posts/2022-09-10-windows-setup.md !
+  [✖] https://github.com/Fndroid/clash_for_windows_pkg/releases/ → Status: 404
+  [✖] https://github.com/Fndroid/clash_for_windows_pkg → Status: 404
+  [✖] https://deny.tsinghua.edu.cn/ → Status: 0
+
+  ERROR: 1 dead links found in src/2022/research/idea/2022-01-26-how-to-build-linux-kernel.md !
+  [✖] https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/focal/ubuntu-20.04.3-desktop-amd64.iso → Status: 0
+
+  ERROR: 3 dead links found in src/2022/research/idea/2022-08-04-build-ijkplayer-with-lib-monitor.md !
+  [✖] https://github.com/liblaf/lib-monitor → Status: 404
+  [✖] https://formulae.brew.sh/formula/llvm@9 → Status: 404
+  [✖] #get-missing-parts-of-ndk → Status: 404
+
+  ERROR: 1 dead links found in src/2022/research/idea/2022-08-17-how-to-get-field-name-in-struct.md !
+  [✖] https://github.com/liblaf/lib-monitor/tree/main/inserter/field_name_extractor → Status: 404
+
+  ERROR: 3 dead links found in src/2022/research/slides/2022-09-23-本地代码库测试.md !
+  [✖] https://github.com/liblaf/dotfiles/tree/main/ubuntu/.oh-my-zsh/custom/plugins/pkg/ndk → Status: 404
+  [✖] /slides/2022/09/16/%E6%9C%AC%E5%9C%B0%E4%BB%A3%E7%A0%81%E5%BA%93%E6%B5%8B%E8%AF%95/#/2 → Status: 400
+  [✖] /android/2022/09/21/how-to-build-telegram-for-android/ → Status: 400
+
+  ERROR: 1 dead links found in src/2023/posts/2023-02-10-clash-auto-select.md !
+  [✖] https://docs.cfw.lbyczf.com/contents/parser.html → Status: 404
+
+  ERROR: 1 dead links found in src/2023/posts/2023-03-22-microsoft-yes.md !
+  [✖] https://openai.com/blog/chatgpt → Status: 403
+
+  ERROR: 2 dead links found in src/2023/posts/2023-07-09-windows-setup.md !
+  [✖] https://github.com/Fndroid/clash_for_windows_pkg/releases → Status: 404
+  [✖] https://www.dell.com/support/home/en-us/product-support/product/xps-13-9320-laptop/drivers → Status: 403
+
+  ERROR: 1 dead links found in src/2023/research/notes/2023-01-10-a-morphable-model-for-the-synthesis-of-3d-faces.md !
+  [✖] #_5-building-a-morphable-model → Status: 404
+
+  ERROR: 5 dead links found in src/2023/research/notes/2023-01-14-face-transfer-with-multilinear-models.md !
+  [✖] https://dash.harvard.edu/bitstream/handle/1/4238955/Vlasic_Face.pdf?sequence=2&isAllowed=y → Status: 202
+  [✖] #_4-multilinear-face-model → Status: 404
+  [✖] #_4-2-correspondence → Status: 404
+  [✖] #_4-4-missing-data → Status: 404
+  [✖] #_5-1-face-tracking → Status: 404
+
+  ERROR: 1 dead links found in src/2024/research/slides/2024-02-28-group-meeting.md !
+  [✖] https://doi.org/10.1002/mp.12391 → Status: 403
+
+  ERROR: 3 dead links found in src/README.md !
+  [✖] https://alist.liblaf.me → Status: 530
+  [✖] https://c.liblaf.me → Status: 0
+  [✖] https://jellyfin.liblaf.me → Status: 530
+

@@ -1,0 +1,110 @@
+Results of cspell linter (version 8.14.1)
+See documentation on https://megalinter.io/8.0.0/descriptors/spell_cspell/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /github/workspace
+Linter raw log:
+ 1/29 .github/auto-label.yaml 738.62ms
+ 2/29 .github/blunderbuss.yml 6.56ms
+ 3/29 .github/megalinter/.checkov.yml 3.41ms
+ 4/29 .github/megalinter/.devskim.json 190.62ms
+ 5/29 .github/renovate.json 2.62ms
+ 6/29 .github/sync-repo-settings.yaml 1.47ms
+ 7/29 .github/workflows/docs.yaml 4.35ms
+ 8/29 .github/workflows/megalinter.yaml 116.64ms X
+.github/workflows/megalinter.yaml:179:15    - Unknown word (stefanzweifel) -- uses: stefanzweifel/git-auto-commit-action
+	 Suggestions: []
+ 9/29 .gitignore 3.78ms
+10/29 .mega-linter.yaml 287.73ms X
+.mega-linter.yaml:34:12     - Unknown word (ISORT)      -- - PYTHON_ISORT
+	 Suggestions: [SORT, iost, IOST, IGOR, ISAR]
+.mega-linter.yaml:35:12     - Unknown word (MYPY)       -- - PYTHON_MYPY
+	 Suggestions: [MOPY, MYOPY, MACY, MANY, MAPS]
+.mega-linter.yaml:36:12     - Unknown word (PYLINT)     -- - PYTHON_PYLINT
+	 Suggestions: [PLYING, PINT, PAINT, PLANT, PLINK]
+.mega-linter.yaml:42:12     - Unknown word (DEVSKIM)    -- REPOSITORY_DEVSKIM_CONFIG_FILE: .github
+	 Suggestions: [DESK, DEVI, DKIM, DEISM, DENIM]
+.mega-linter.yaml:42:53     - Unknown word (devskim)    -- .github/megalinter/.devskim.json
+	 Suggestions: [desk, devi, dkim, deism, denim]
+.mega-linter.yaml:43:12     - Unknown word (KICS)       -- REPOSITORY_KICS_CONFIG_FILE: .github
+	 Suggestions: [KI'S, KICK, KIDS, KINS, KIPS]
+.mega-linter.yaml:43:49     - Unknown word (kics)       -- .github/megalinter/kics.config
+	 Suggestions: [ki's, kick, kids, kins, kips]
+11/29 .pre-commit-config.yaml 3.31ms
+12/29 .prettierignore 1.07ms
+13/29 8ad7eec0-6b84-469f-8938-02ff08a75e69-megalinter_file_names_cspell.txt 151.28ms X
+8ad7eec0-6b84-469f-8938-02ff08a75e69-megalinter_file_names_cspell.txt:5:20      - Unknown word (devskim)    -- github megalinter devskim
+	 Suggestions: [desk, devi, dkim, deism, denim]
+8ad7eec0-6b84-469f-8938-02ff08a75e69-megalinter_file_names_cspell.txt:78:42     - Unknown word (openmp)     -- hpc 2022 03 28 exp3 openmp for
+	 Suggestions: [open, opens, open's, openai, opened]
+8ad7eec0-6b84-469f-8938-02ff08a75e69-megalinter_file_names_cspell.txt:81:42     - Unknown word (cuda)       -- hpc 2022 04 26 exp6 cuda
+	 Suggestions: [coda, cuba, cuds, c-uda, cauda]
+8ad7eec0-6b84-469f-8938-02ff08a75e69-megalinter_file_names_cspell.txt:83:42     - Unknown word (cuda)       -- hpc 2022 05 23 exp7 cuda global memory shared
+	 Suggestions: [coda, cuba, cuds, c-uda, cauda]
+8ad7eec0-6b84-469f-8938-02ff08a75e69-megalinter_file_names_cspell.txt:93:41     - Unknown word (ijkplayer)  -- idea 2022 07 16 build ijkplayer with clang
+	 Suggestions: []
+8ad7eec0-6b84-469f-8938-02ff08a75e69-megalinter_file_names_cspell.txt:94:41     - Unknown word (ijkplayer)  -- idea 2022 08 04 build ijkplayer with lib monitor
+	 Suggestions: []
+8ad7eec0-6b84-469f-8938-02ff08a75e69-megalinter_file_names_cspell.txt:96:60     - Unknown word (struct)     -- to get field name in struct
+	 Suggestions: [strut, strict, struck, stout, strum]
+8ad7eec0-6b84-469f-8938-02ff08a75e69-megalinter_file_names_cspell.txt:123:27    - Unknown word (typst)      -- 23 posts 2023 03 22 typst yes
+	 Suggestions: [typist, taps, test, tips, tops]
+8ad7eec0-6b84-469f-8938-02ff08a75e69-megalinter_file_names_cspell.txt:125:27    - Unknown word (honkai)     -- 23 posts 2023 06 07 honkai star rail
+	 Suggestions: [honk, hokan, honan, honda, honks]
+8ad7eec0-6b84-469f-8938-02ff08a75e69-megalinter_file_names_cspell.txt:135:36    - Unknown word (phace)      -- research notes 2023 02 14 phace physics based face modeling
+	 Suggestions: [pace, peace, phage, phase, place]
+14/29 LICENSE 4.35ms
+15/29 package.json 4.43ms
+16/29 scripts/front_matter.py 193.85ms
+17/29 src/.vuepress/.gitignore 2.35ms
+18/29 src/.vuepress/client.ts 43.32ms
+19/29 src/.vuepress/config.ts 4.87ms
+20/29 src/.vuepress/navbar.ts 2.42ms
+21/29 src/.vuepress/plugins.ts 18.81ms
+22/29 src/.vuepress/plugins/frontmatter/index.ts 8.03ms
+23/29 src/.vuepress/sidebar.ts 3.85ms
+24/29 src/.vuepress/styles/config.scss 11.52ms
+25/29 src/.vuepress/styles/index.scss 2.42ms
+26/29 src/.vuepress/styles/palette.scss 1.29ms
+27/29 src/.vuepress/theme.ts 4.95ms
+28/29 Taskfile.yaml 1.73ms
+29/29 tsconfig.json 1.64ms
+CSpell: Files checked: 29, Issues found: 18 in 3 files.
+
+
+You can skip this misspellings by defining the following .cspell.json file at the root of your repository
+Of course, please correct real typos before :)
+
+{
+    "version": "0.2",
+    "language": "en",
+    "ignorePaths": [
+        "**/node_modules/**",
+        "**/vscode-extension/**",
+        "**/.git/**",
+        "**/.pnpm-lock.json",
+        ".vscode",
+        "package-lock.json",
+        "megalinter-reports"
+    ],
+    "words": [
+        "DEVSKIM",
+        "ISORT",
+        "KICS",
+        "MYPY",
+        "PYLINT",
+        "cuda",
+        "devskim",
+        "honkai",
+        "ijkplayer",
+        "kics",
+        "openmp",
+        "phace",
+        "stefanzweifel",
+        "struct",
+        "typst"
+    ]
+}
+
+
+You can also copy-paste megalinter-reports/.cspell.json at the root of your repository
