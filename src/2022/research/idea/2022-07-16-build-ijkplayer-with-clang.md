@@ -240,4 +240,5 @@ Here are some discussions on [GitHub](https://github.com/bilibili/ijkplayer). I 
 ## Reference
 
 [^1]: [c - Unknown directive .altmacro error happens when using android-ndk standalone toolchain - Stack Overflow](https://stackoverflow.com/questions/47938599/unknown-directive-altmacro-error-happens-when-using-android-ndk-standalone-tool)
+
 [^2]: [linux - error while loading shared libraries: libncurses.so.5: - Stack Overflow](https://stackoverflow.com/questions/17005654/error-while-loading-shared-libraries-libncurses-so-5)

@@ -192,8 +192,13 @@ If you stuck on `Loading inital ramdisk...` after reboot, try adding `IUCODE_TOO
 ## Reference
 
 [^1]: [How To Build Linux Kernel {Step-By-Step} \| phoenixNAP KB](https://phoenixnap.com/kb/build-linux-kernel)
+
 [^2]: [compilation - BTF: .tmp_vmlinux.btf: pahole (pahole) is not available - Stack Overflow](https://stackoverflow.com/questions/61657707/btf-tmp-vmlinux-btf-pahole-pahole-is-not-available)
+
 [^3]: [Compiling the kernel 5.11.11 - Ask Ubuntu](https://askubuntu.com/questions/1329538/compiling-the-kernel-5-11-11)
+
 [^4]: [Building Linux with Clang/LLVM — The Linux Kernel documentation](https://www.kernel.org/doc/html/v5.13/kbuild/llvm.html)
+
 [^5]: [How Do I Change the Default Boot Kernel in Ubuntu?\_Elastic Cloud Server_Troubleshooting_Linux Issues_HUAWEI CLOUD](https://support.huaweicloud.com/intl/en-us/trouble-ecs/ecs_trouble_0327.html)
+
 [^6]: [boot - Stuck on "Loading initial ramdisk..." after upgrading - Ask Ubuntu](https://askubuntu.com/questions/1145535/stuck-on-loading-initial-ramdisk-after-upgrading)
